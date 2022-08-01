@@ -1,11 +1,13 @@
 module.exports = {
+  darkMode: 'class',
   content: [
     "./pages/**/*.{js,ts,jsx,tsx}",
     "./components/**/*.{js,ts,jsx,tsx}",
+    "./helpers/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
     fontFamily: {
-      'sans': ['Arial', 'sans-serif'],
+      'sans': ['Poppins', 'sans-serif'],
       'mono': ['Lucida Console', 'Courier', 'monospace'],
     },
     screens: {

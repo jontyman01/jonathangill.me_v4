@@ -1,15 +1,15 @@
 export default {
-  defaultTitle: 'Boilerplate | Next x Tailwind x Motion',
-  description: 'A simple Next.js starter kit with Tailwind and Framer Motion.',
+  defaultTitle: 'Jonathan Gill | UI/UX Designer',
+  description: 'Portfolio of Jonathan Gill',
   titleTemplate: '%s | Next x Tailwind x Motion',
   openGraph: {
     type: 'website',
     locale: 'en_GB',
-    url: 'https://sg-next-tailwind-motion.vercel.app/',
-    site_name: 'Next x Tailwind x Motion',
+    url: 'https://jonathangill.me',
+    site_name: 'Jonathan Gill | UI/UX Designer',
   },
   twitter: {
-    handle: '@samuelgoddard',
+    handle: '@jontyman01',
     site: '@site',
     cardType: 'summary_large_image',
   },

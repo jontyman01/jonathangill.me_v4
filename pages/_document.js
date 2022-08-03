@@ -8,7 +8,7 @@ export default class MyDocument extends Document {
           <link rel="icon" href="/favicon.ico" />
         </Head>
         
-        <body>
+        <body className="bg-gray-100 dark:bg-gray-900 dark:text-slate-50">
           <Main />
           <NextScript />
         </body>

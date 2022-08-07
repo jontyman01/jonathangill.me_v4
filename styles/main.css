@@ -37,7 +37,7 @@ body {
 }
 
 .Collapsible {
- @apply mb-2 border-b-2 border-b-gray-500 relative transition ease-in-out delay-150;
+ @apply mb-4 border-b-2 border-b-gray-500 relative transition ease-in-out delay-150;
 }
 
 .Collapsible:hover {
@@ -45,7 +45,7 @@ body {
 }
 
 .Collapsible__trigger {
- @apply block pb-2 text-2xl font-bold;
+ @apply block pb-2 text-3xl font-bold;
 }
 
 .Collapsible__trigger:after {
@@ -64,4 +64,12 @@ body {
 
 .is-open:after {
   transform: rotate(180deg);
+}
+
+.linkBlock:hover hr {
+  @apply border-gray-300 bg-gray-300;
+}
+
+.linkBlock:hover svg {
+ @apply hover:stroke-gray-300;
 }

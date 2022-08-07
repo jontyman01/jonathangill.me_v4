@@ -26,16 +26,25 @@ export default function Home() {
         >
           <Container>
             <m.article variants={fade}>
-              <div className="flex flex-row pb-4">
-                <div className="md:mr-2 rounded-md basis-1/1 md:basis-2/3 bg-gradient-to-r from-green-800 to-blue-900 p-6">
+              <div className="md:flex flex-row pb-4">
+                <div className="md:mr-2 rounded-md basis-1/1 md:basis-2/3 bg-gradient-to-r from-green-800 to-blue-900 p-6 mb-4 md:mb-0 flex items-center">
                   <p className="text-3xl">
                     With nearly a decade of experience, I aim to deliver
                     customer centred digital designs tailored to their needs,
                     and backed up by clear rationale.
                   </p>
                 </div>
-                <div className="md:ml-2 rounded-md basis-1/1 md:basis-1/3 bg-gray-700">
-                  02
+                <div className="md:ml-2 rounded-md basis-1/1 md:basis-1/3 bg-gradient-to-r from-slate-800 to-slate-800 p-6">
+                <p className="text-gray-400 pb-2">I've Worked With</p>
+                <p className="text-4xl font-bold">
+                  <span className="text-transparent bg-clip-text bg-gradient-to-r inline-block from-red-500 to-red-900 pr-2">SPEEDO</span>
+                  <span className="text-transparent bg-clip-text bg-gradient-to-r inline-block from-yellow-400 to-yellow-500 pr-2">WAER SYSTEMS</span>
+                  <span className="text-transparent bg-clip-text bg-gradient-to-r inline-block from-red-400 to-blue-600 pr-2">BERGHAUS</span>
+                  <span className="text-transparent bg-clip-text bg-gradient-to-r inline-block from-red-600 to-red-900 pr-2">SIG</span>
+                  <span className="text-transparent bg-clip-text bg-gradient-to-r inline-block from-orange-400 to-red-700 pr-2">ELLESSE</span>
+                  <span className="text-transparent bg-clip-text bg-gradient-to-r inline-block from-green-600 to-emerald-500 pr-2">RIGHTINDEM</span>
+                </p>
+                <p className="pt-2">+ Many More</p>
                 </div>
               </div>
 

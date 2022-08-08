@@ -86,8 +86,8 @@ export default function Home() {
               </div>
 
               <LinkBlock
-                destination="/waer-systems"
-                a11yText="Navigate to WAER Systems"
+                destination="/waerlinx"
+                a11yText="Navigate to WAERlinx"
                 title="WAERLINX"
                 textColorClasses="from-yellow-500 to-yellow-800"
                 bgColorClasses="dark:bg-gray-800 bg-gray-200"
@@ -95,6 +95,40 @@ export default function Home() {
                 company="WAER Systems"
                 skill_1="Lead Product Designer"
               />
+
+              <LinkBlock
+                destination="/speedo"
+                a11yText="Navigate to Speedo"
+                title="SPEEDO.COM"
+                textColorClasses="from-red-500 to-orange-800"
+                bgColorClasses="dark:bg-gray-800 bg-gray-200"
+                num="02"
+                company="Pentland Brands"
+                skill_1="Lead UI Designer"
+              />
+
+              <LinkBlock
+                destination="/rightindem"
+                a11yText="Navigate to RightIndem"
+                title="RIGHTINDEM : INSURANCE CLAIMS PLATFORM"
+                textColorClasses="from-green-500 to-emerald-800"
+                bgColorClasses="dark:bg-gray-800 bg-gray-200"
+                num="03"
+                company="RightIndem"
+                skill_1="UI/UX Design, Front End Development"
+              />
+
+              <LinkBlock
+                destination="/berghaus"
+                a11yText="Navigate to Berghaus"
+                title="BERGHAUS.COM HOMEPAGE"
+                textColorClasses="from-red-500 to-blue-500"
+                bgColorClasses="dark:bg-gray-800 bg-gray-200"
+                num="04"
+                company="Penland Brands"
+                skill_1="UI/UX Design"
+              />
+
             </m.article>
           </Container>
         </m.main>

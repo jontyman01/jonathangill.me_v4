@@ -17,6 +17,10 @@ body {
   @apply font-sans antialiased text-black bg-white;
 }
 
+p a {
+  @apply underline hover:decoration-indigo-500 focus:text-gray-500;
+}
+
 /* Dark mode switch */
 .dark .dark\:moon, .sun {
   background-size:32px;
@@ -72,4 +76,8 @@ body {
 
 .linkBlock:hover svg {
  @apply hover:stroke-gray-300;
+}
+
+.quoteBlockbg {
+  background: radial-gradient(50% 50% at 50% 50%, #4e4400 0%, #1F2937 100%);
 }

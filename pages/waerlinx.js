@@ -144,7 +144,7 @@ export default function waerlinx() {
                 placeholder="blur"
               />
 
-              <div className="md:flex flex-row pb-4">
+              <div className="md:flex flex-row pb-8">
                 <div className="md:basis-1/2 md:pr-1">
                   <Image
                     src={wlbeforeafter1}

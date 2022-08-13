@@ -74,14 +74,14 @@ export default function Home() {
                   trigger="REQUIREMENTS GATHERING &amp; WIREFRAMING"
                   transitionTime="150"
                 >
-                  <p className="pb-4">I aim to understand the user's needs and pain points on any project in order to create the best design for them possible. Whether that's through asking them directly via workshops, surveys, or observing via site visits and analytics, I can gather these requirements and translate them into wireframes for feedback before the UI phase.</p>
+                  <p className="pb-4">I aim to understand the user's needs and pain points on any project in order to create the best design for them possible. Whether that's through asking directly via workshops, surveys, or observing via site visits and analytics, I can gather these requirements and translate them into wireframes for feedback before the UI phase.</p>
                 </Collapsible>
 
                 <Collapsible
                   trigger="FRONTEND DESIGN"
                   transitionTime="150"
                 >
-                  <p className="pb-4">I've been coding websites for as long as I've been designing and have proven experience integrating into software teams to build designs. I can advise on best UI development practices too. Whatever the context of the project, whether it's React, .NET, has a CMS like wordpress, or anything in-between, I aim create functional and great looking experiences on any device.</p>
+                  <p className="pb-4">I've been coding websites for as long as I've been designing and have proven experience integrating into software teams to build designs. I can advise on best UI development practices too. Whatever the context of the project, whether it's React, .NET, has a CMS like wordpress, or anything in-between, I aim to create functional and great looking experiences on any device.</p>
                 </Collapsible>
               </div>
 

@@ -14,8 +14,10 @@ import { NextSeo } from "next-seo";
 import RIHeader from "../src/img/rightindem/rightindem.jpg";
 import RiApp1 from "../src/img/rightindem/product.jpg";
 import RIApp2 from "../src/img/rightindem/product1.png";
-import RIdash from "../src/img/rightindem/efnol-add-damage.mp4";
-import RIdashimg from "../src/img/rightindem/efnol-add-damage.png";
+import RIADamage from "../src/img/rightindem/damage-concepts.jpg";
+import RIdash from "../src/img/rightindem/dashboard-hifi.png";
+
+import RIPrint from "../src/img/rightindem/ri-print.jpg";
 
 export default function Rightindem() {
   return (
@@ -94,7 +96,7 @@ export default function Rightindem() {
                     <p className="pb-4">
                       I contributed to the design system used in their flagship
                       SaaS product by matching it with the company's new visual
-                      identity, creating a unified and consistent UI whilst also
+                      identity, creating a unified and consistent UI, whilst also
                       building out new interfaces with this for new areas in the
                       customer journey.
                     </p>
@@ -143,38 +145,45 @@ export default function Rightindem() {
                 </div>
               </div>
 
-              <video
-                width="100%"
-                height="100%"
-                poster={RIdashimg}
-                className="rounded-md"
-                playsinline=""
-                loop=""
-                autoplay=""
-              >
-                <source src={RIdash} type="video/mp4" />
-              </video>
               <Image
-                src={RIdashimg}
-                alt="Add damage"
-                className="rounded-md"
-                placeholder="blur"
-              />
+                    src={RIdash}
+                    alt="Picture of RI Dashboard"
+                    className="rounded-md text-center"
+                    placeholder="blur"
+                  />
+
+              <div className="md:flex flex-row pb-8 justify-center text-center">
+                <div className="md:basis-1/2 md:pr-1">
+                <Image
+                    src={RIADamage}
+                    alt="Picture of RI Damage Concepts"
+                    className="rounded-md text-center"
+                    placeholder="blur"
+                  />
+                <Image
+                    src={RIPrint}
+                    alt="Picture of RI Merc"
+                    className="rounded-md text-center"
+                    placeholder="blur"
+                  />
+                </div>
+              </div>
 
               <p className="bg-gray-800 rounded-md p-4 md:p-6 my-8 italic">
                 This work was created at &amp; is property of RightIndem.
               </p>
 
               <LinkBlock
-                destination="/rightindem"
-                a11yText="Navigate to Rightindem"
-                title="RightIndem"
-                textColorClasses="from-green-500 to-emerald-800"
-                bgColorClasses="dark:bg-gray-800 bg-gray-200 mt-4"
+                destination="/waerlinx"
+                a11yText="Navigate to WAERlinx"
+                title="WAERLINX"
+                textColorClasses="from-yellow-500 to-yellow-800"
+                bgColorClasses="dark:bg-gray-800 bg-gray-200"
                 num="Next Project"
-                company="Right Indemnity"
-                skill_1="UI/UX Design"
+                company="WAER Systems"
+                skill_1="Lead Product Designer"
               />
+
             </m.div>
           </Container>
         </m.div>

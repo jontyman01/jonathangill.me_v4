@@ -1,28 +1,22 @@
 import FancyLink from '@/components/fancyLink'
 import Container from '@/components/container'
-import useIsMounted from '@/helpers/useIsMounted'
 import { useTheme } from "next-themes";
 
 export default function Header() {
-  const isMounted = useIsMounted()
-  const { theme, setTheme } = useTheme()
+
 
   return (
-    <header className="py-4 mb-4 md:mb-6 xl:mb-8">
+    <header className="">
       <Container>
-        <div className="flex flex-wrap">
-          <FancyLink destination="/" a11yText="Navigate to the home page" label="Jonathan Gill - UI/UX Designer" extraClasses="text-l mb-1 md:mb-0 font-bold" />
+        <div className="flex flex-wrap bg-gray-800 p-4 rounded-md my-4">
+          <FancyLink destination="/" a11yText="Navigate to the home page" label="Jonathan Gill : UI/UX Designer" extraClasses="text-xl mb-1 md:mb-0 font-bold" />
 
           <nav className="ml-auto flex space-x-3 w-full text-sm md:text-base md:w-auto">
-            <FancyLink destination="/" a11yText="Navigate to the home page" label="Home" />
-            <FancyLink destination="/about" a11yText="Navigate to the about page" label="About" />
-          <button
-            aria-label="Toggle Dark Mode"
-            type="button"
-            className="p-3 h-8 w-8 order-2 md:order-3 absolute left-2/4 transform -translate-x-2/4 lg:transform-none md:relative md:left-0 dark:moon sun"
-            onClick={() => setTheme(theme === 'dark' ? 'light' : 'dark')}
-          >
-          </button>
+            <a href="https://www.linkedin.com/in/gilljonathan" target="_blank" className="hover:underline hover:decoration-indigo-500 focus:text-gray-500">Find Me On LinkedIn</a>
+            <span className="block">&bull;</span>
+
+            <a href="mailto:jonathangill.me" className="hover:underline hover:decoration-indigo-500 focus:text-gray-500">Say Hello</a>
+
           </nav>
         </div>
       </Container>

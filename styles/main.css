@@ -78,6 +78,15 @@ p a {
  @apply hover:stroke-gray-300;
 }
 
-.quoteBlockbg {
-  background: radial-gradient(50% 50% at 50% 50%, #4e4400 0%, #1F2937 100%);
+.quoteBlockbg--wl {
+  background: radial-gradient(50% 50% at 50% 50%, #7b6b00 0%, #00467f 100%);
+  
+}
+
+.quoteBlockbg--sp {
+  background: radial-gradient(50% 50% at 50% 50%, #040100 0%, #7e0000 100%);
+}
+
+.quoteBlockbg--ri {
+  background:radial-gradient(50% 50% at 50% 50%, #025e28 0%, #532035 100%);
 }

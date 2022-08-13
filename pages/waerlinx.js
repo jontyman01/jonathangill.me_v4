@@ -88,7 +88,7 @@ export default function waerlinx() {
 
                   <div className="md:ml-2 rounded-md basis-1/1 md:basis-3/4 md:p-6">
                     <p className="text-lg font-bold pb-4">
-                      WAER Systems is the creator of WAERLinx, a WMS (warehouse
+                    <a href="https://waersystems.com/" target="_blank" rel="noopener noreferrer">WAER Systems</a> is the creator of WAERLinx, a WMS (warehouse
                       management system) for businesses that run NetSuite as
                       their ERP.
                     </p>
@@ -111,8 +111,15 @@ export default function waerlinx() {
                     <p>
                       From this, a Design System was established and a full UI
                       design of screens were created. This was then picked up by
-                      a developer and built in React, where I directed the UI
-                      components to be built in Storybook for re-uability and
+                      a front-end developer and built in React and {" "}
+                        <a
+                          href="https://mui.com/"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                        >
+                          MUI
+                        </a>, where I directed the UI
+                      components to be built in <a href="https://storybook.js.org/" target="_blank" rel="noopener noreferrer">Storybook</a> for re-uability and
                       testing of components in multiple screen situations.
                     </p>
                   </div>
@@ -121,12 +128,12 @@ export default function waerlinx() {
 
               <Image
                 src={wlwireframes}
-                alt="Picture of Inventorty Move Wireframes"
+                alt="Picture of Inventory Move Wireframes"
                 className="rounded-md"
                 placeholder="blur"
               />
               <QuoteBlock
-                bgColorClasses=""
+                bgColorClasses="quoteBlockbg--wl"
                 quote="Ultimately the research showed it had to be fast, intuitive for android users, optimized for very small screens and the environment of a warehouse - meaning large, easy to tap interactive elements, clear accessible instructions and quick ways to navigate throughout the product."
               />
 
@@ -163,6 +170,9 @@ export default function waerlinx() {
                   />
                 </div>
               </div>
+
+              <p className="bg-gray-800 rounded-md p-4 md:p-6 mb-8 italic">This work was created at &amp; is property of WAER Systems.</p>
+
 
               <LinkBlock
                 destination="/speedo"

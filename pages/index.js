@@ -38,7 +38,7 @@ export default function Home() {
                 <div className="md:ml-2 rounded-md basis-1/1 md:basis-1/3 bg-gradient-to-r from-slate-800 to-slate-800 p-4 md:p-6">
                   <p className="text-gray-400 pb-2">I've Worked With</p>
                   <p className="text-4xl font-bold">
-                    <span className="text-transparent bg-clip-text bg-gradient-to-r inline-block from-red-500 to-red-900 pr-2">
+                    <span className="text-transparent bg-clip-text bg-gradient-to-r inline-block from-red-500 to-orange-800 pr-2">
                       SPEEDO
                     </span>
                     <span className="text-transparent bg-clip-text bg-gradient-to-r inline-block from-yellow-400 to-yellow-500 pr-2">
@@ -67,21 +67,21 @@ export default function Home() {
                   trigger="UI DESIGN &amp; DESIGN SYSTEMS"
                   transitionTime="150"
                 >
-                  <p className="pb-4">Stuff about design systems</p>
+                  <p className="pb-4">I create bespoke UI designs and design systems - in other words, I translate any user experience requirements gathered into re-usable UI components. From simple elements like buttons, all the way to whole screens that can be arranged and scaled to any screen size.</p>
                 </Collapsible>
 
                 <Collapsible
                   trigger="REQUIREMENTS GATHERING &amp; WIREFRAMING"
                   transitionTime="150"
                 >
-                  <p className="pb-4">Stuff about design systems</p>
+                  <p className="pb-4">I aim to understand the user's needs and pain points on any project in order to create the best design for them possible. Whether that's through asking them directly via workshops, surveys, or observing via site visits and analytics, I can gather these requirements and translate them into wireframes for feedback before the UI phase.</p>
                 </Collapsible>
 
                 <Collapsible
-                  trigger="BESPOKE HTML &amp; CSS"
+                  trigger="FRONTEND DESIGN"
                   transitionTime="150"
                 >
-                  <p className="pb-4">Stuff about design systems</p>
+                  <p className="pb-4">I've been coding websites for as long as I've been designing and have proven experience integrating into software teams to build designs. I can advise on best UI development practices too. Whatever the context of the project, whether it's React, .NET, has a CMS like wordpress, or anything in-between, I aim create functional and great looking experiences on any device.</p>
                 </Collapsible>
               </div>
 
@@ -115,17 +115,17 @@ export default function Home() {
                 bgColorClasses="dark:bg-gray-800 bg-gray-200"
                 num="03"
                 company="RightIndem"
-                skill_1="UI/UX Design, Front End Development"
+                skill_1="UI/UX Design, Front End Development, Branding"
               />
 
               <LinkBlock
                 destination="/berghaus"
                 a11yText="Navigate to Berghaus"
                 title="BERGHAUS.COM HOMEPAGE"
-                textColorClasses="from-red-500 to-blue-500"
+                textColorClasses="from-red-400 to-blue-600"
                 bgColorClasses="dark:bg-gray-800 bg-gray-200"
                 num="04"
-                company="Penland Brands"
+                company="Pentland Brands"
                 skill_1="UI/UX Design"
               />
 

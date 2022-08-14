@@ -14,7 +14,7 @@ export default function LinkBlock({
     <Link href={destination}>
       <a
         aria-label={a11yText}
-        className={`block mb-4 p-4 rounded-md linkBlock relative ${bgColorClasses}`}
+        className={`block mb-4 p-4 md:p-6 rounded-md linkBlock relative ${bgColorClasses}`}
       >
         <p className="text-gray-400 pb-0 linedText relative pr-16">
           <span className="bg-gray-800 pr-4">{num}</span>
@@ -25,8 +25,9 @@ export default function LinkBlock({
         >
           {title}
         </p>
-        <p className="pb-4">{company}</p>
-        <span className="rounded-full bg-gray-600 py-1 px-4">{skill_1}</span>
+       
+        <span className="rounded-full block py-2">{skill_1}</span>
+
         <div className="absolute inset-y-0 right-0 w-16 flex items-center" >
           <svg
             width="20"
@@ -35,7 +36,7 @@ export default function LinkBlock({
             fill="none"
             strokeWidth="2"
             xmlns="http://www.w3.org/2000/svg"
-            className="stroke-gray-500 transition ease-in-out delay-150"
+            className="stroke-gray-500 transition ease-in-out delay-150 arrow"
           >
             <path d="M1 1.60769L19 12L1 22.3923L1 1.60769Z" stroke="inherit" />
           </svg>

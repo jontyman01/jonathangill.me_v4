@@ -30,7 +30,7 @@ export default function waerlinx() {
           initial="initial"
           animate="enter"
           exit="exit"
-          className="mb-12 md:mb-16 xl:mb-24"
+          className="mb-12 md:mb-16 xl:mb-8"
         >
           <Container>
             <m.div variants={fade}>
@@ -44,7 +44,7 @@ export default function waerlinx() {
               </div>
 
               <div className="bg-gray-800 rounded-md p-4 md:p-6 mb-8">
-                <hr className="h-px border-b border-gray-500 bg-gray-500 mb-4" />
+                
 
                 <div className="md:flex flex-row">
                   <div className="md:pr-2 rounded-md basis-1/1 md:basis-1/4 bg-gradient-to-r mb-4 md:mb-0 font-light">
@@ -78,6 +78,7 @@ export default function waerlinx() {
                           href="https://mui.com/"
                           target="_blank"
                           rel="noopener noreferrer"
+                          className="hover:decoration-yellow-400"
                         >
                           MUI
                         </a>{" "}
@@ -88,7 +89,7 @@ export default function waerlinx() {
 
                   <div className="md:ml-2 rounded-md basis-1/1 md:basis-3/4 md:p-6">
                     <p className="text-lg font-bold pb-4">
-                    <a href="https://waersystems.com/" target="_blank" rel="noopener noreferrer">WAER Systems</a> is the creator of WAERLinx, a WMS (warehouse
+                    <a href="https://waersystems.com/" target="_blank" className="hover:decoration-yellow-400" rel="noopener noreferrer">WAER Systems</a> is the creator of WAERLinx, a WMS (warehouse
                       management system) for businesses that run NetSuite as
                       their ERP.
                     </p>
@@ -116,10 +117,11 @@ export default function waerlinx() {
                           href="https://mui.com/"
                           target="_blank"
                           rel="noopener noreferrer"
+                          className="hover:decoration-yellow-400"
                         >
                           MUI
                         </a>, where I directed the UI
-                      components to be built in <a href="https://storybook.js.org/" target="_blank" rel="noopener noreferrer">Storybook</a> for re-uability and
+                      components to be built in <a href="https://storybook.js.org/" target="_blank" className="hover:decoration-yellow-400" rel="noopener noreferrer">Storybook</a> for re-uability and
                       testing of components in multiple screen situations.
                     </p>
                   </div>
@@ -179,7 +181,7 @@ export default function waerlinx() {
                 a11yText="Navigate to Speedo"
                 title="SPEEDO.COM"
                 textColorClasses="from-red-500 to-orange-800"
-                bgColorClasses="dark:bg-gray-800 bg-gray-200"
+                bgColorClasses="dark:bg-gray-800 bg-gray-200 speedo"
                 num="Next Project"
                 company="Pentland Brands"
                 skill_1="Lead UI Designer"

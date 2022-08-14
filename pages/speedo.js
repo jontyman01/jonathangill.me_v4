@@ -6,7 +6,8 @@ import Footer from "@/components/footer";
 import Container from "@/components/container";
 import LinkBlock from "@/components/linkBlock";
 import QuoteBlock from "@/components/quoteBlock";
-import FancyLink from '@/components/fancyLink'
+import FancyLink from '@/components/fancyLink';
+import { FiExternalLink } from 'react-icons/fi';
 
 import { fade } from "@/helpers/transitions";
 import { LazyMotion, domAnimation, m } from "framer-motion";
@@ -32,7 +33,7 @@ export default function speedo() {
           initial="initial"
           animate="enter"
           exit="exit"
-          className="mb-12 md:mb-16 xl:mb-24"
+          className="mb-12 md:mb-16 xl:mb-8"
         >
           <Container>
             <m.div variants={fade}>
@@ -54,7 +55,7 @@ export default function speedo() {
                       SPEEDO.COM
                     </h1>
           
-                    <FancyLink destination="https://www.speedo.com" a11yText="Navigate to speedo.com" label="Visit Site" extraClasses="block" />
+                    <p><FiExternalLink className="inline" /> <FancyLink destination="https://www.speedo.com" a11yText="Navigate to speedo.com" label="Visit Site" extraClasses="italic hover:decoration-red-400" /></p>
 
                     <hr className="h-px border-b border-gray-500 bg-gray-500 mb-4 mt-4" />
 
@@ -164,10 +165,10 @@ export default function speedo() {
                 a11yText="Navigate to Rightindem"
                 title="RightIndem"
                 textColorClasses="from-green-500 to-emerald-800"
-                bgColorClasses="dark:bg-gray-800 bg-gray-200 mt-4"
+                bgColorClasses="dark:bg-gray-800 bg-gray-200 mt-4 ri"
                 num="Next Project"
                 company="Right Indemnity"
-                skill_1="UI/UX Design"
+                skill_1="UI/UX Design &bull; Front End Development &bull; Branding"
               />
             </m.div>
           </Container>

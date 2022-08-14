@@ -22,7 +22,7 @@ export default function Home() {
           initial="initial"
           animate="enter"
           exit="exit"
-          className="mb-12 md:mb-16 xl:mb-24"
+          className="mb-12 md:mb-16 xl:mb-8"
         >
           <Container>
             <m.article variants={fade}>
@@ -31,7 +31,7 @@ export default function Home() {
                   <p className="text-3xl">
                     Hi, I'm Jon 👋 I have nearly a decade of experience
                     designing and delivering bespoke, user focussed digital
-                    products, backed up by clear rationale.
+                    products, grounded in clear rationale.
                   </p>
                 </div>
 
@@ -67,21 +67,24 @@ export default function Home() {
                   trigger="UI DESIGN &amp; DESIGN SYSTEMS"
                   transitionTime="150"
                 >
-                  <p className="pb-4">I create bespoke UI designs and design systems - in other words, I translate any user experience requirements gathered into re-usable UI components. From simple elements like buttons, all the way to whole screens that can be arranged and scaled to any screen size.</p>
+                  <p className="pb-4">I create bespoke UI designs and design systems - in other words, I translate any user experience requirements gathered into re-usable UI components.</p>
+                  <p className="pb-4"> From simple elements like buttons, all the way to whole screens that can be arranged and scaled to any screen size.</p>
                 </Collapsible>
 
                 <Collapsible
                   trigger="REQUIREMENTS GATHERING &amp; WIREFRAMING"
                   transitionTime="150"
                 >
-                  <p className="pb-4">I aim to understand the user's needs and pain points on any project in order to create the best design for them possible. Whether that's through asking directly via workshops, surveys, or observing via site visits and analytics, I can gather these requirements and translate them into wireframes for feedback before the UI phase.</p>
+                  <p className="pb-4">I aim to understand the user's needs and pain points on any project in order to create the best design for them possible.</p>
+                  <p className="pb-4">Whether that's asking directly via workshops, surveys, or observing via site visits and analytics, I can gather these requirements and translate them into wireframes for feedback before the UI phase.</p>
                 </Collapsible>
 
                 <Collapsible
                   trigger="FRONTEND DESIGN"
                   transitionTime="150"
                 >
-                  <p className="pb-4">I've been coding websites for as long as I've been designing and have proven experience integrating into software teams to build designs. I can advise on best UI development practices too. Whatever the context of the project, whether it's React, .NET, has a CMS like wordpress, or anything in-between, I aim to create functional and great looking experiences on any device.</p>
+                  <p className="pb-4">I've been coding websites for as long as I've been designing. I have proven experience integrating into software teams to build designs and can advise on best UI development practices.</p> 
+                  <p className="pb-4">Whatever the context of the project, whether it's React, .NET, has a CMS like wordpress, or anything in-between, I aim to create functional and great looking experiences on any device.</p>
                 </Collapsible>
               </div>
 
@@ -90,7 +93,7 @@ export default function Home() {
                 a11yText="Navigate to WAERlinx"
                 title="WAERLINX"
                 textColorClasses="from-yellow-500 to-yellow-800"
-                bgColorClasses="dark:bg-gray-800 bg-gray-200"
+                bgColorClasses="dark:bg-gray-800 bg-gray-200 wl"
                 num="01"
                 company="WAER Systems"
                 skill_1="Lead Product Designer"
@@ -101,7 +104,7 @@ export default function Home() {
                 a11yText="Navigate to Speedo"
                 title="SPEEDO.COM"
                 textColorClasses="from-red-500 to-orange-800"
-                bgColorClasses="dark:bg-gray-800 bg-gray-200"
+                bgColorClasses="dark:bg-gray-800 bg-gray-200 speedo"
                 num="02"
                 company="Pentland Brands"
                 skill_1="Lead UI Designer"
@@ -112,10 +115,10 @@ export default function Home() {
                 a11yText="Navigate to RightIndem"
                 title="RIGHTINDEM : INSURANCE CLAIMS PLATFORM"
                 textColorClasses="from-green-500 to-emerald-800"
-                bgColorClasses="dark:bg-gray-800 bg-gray-200"
+                bgColorClasses="dark:bg-gray-800 bg-gray-200 ri"
                 num="03"
                 company="RightIndem"
-                skill_1="UI/UX Design, Front End Development, Branding"
+                skill_1="UI/UX Design &bull; Front End Development &bull; Branding"
               />
 
               <LinkBlock

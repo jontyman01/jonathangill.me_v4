@@ -18,7 +18,7 @@ body {
 }
 
 p a {
-  @apply underline hover:decoration-indigo-500 focus:text-gray-500;
+  @apply underline hover:decoration-indigo-500 decoration-2 focus:text-gray-500;
 }
 
 /* Dark mode switch */
@@ -49,7 +49,7 @@ p a {
 }
 
 .Collapsible__trigger {
- @apply block pb-2 text-3xl font-bold;
+ @apply block pb-2 text-2xl md:text-3xl font-bold pr-7;
 }
 
 .Collapsible__trigger:after {
@@ -74,8 +74,28 @@ p a {
   @apply border-gray-300 bg-gray-300;
 }
 
-.linkBlock:hover svg {
- @apply hover:stroke-gray-300;
+.linkBlock.wl:hover hr {
+  @apply border-yellow-300 bg-yellow-300;
+}
+
+.linkBlock.speedo:hover hr {
+  @apply border-red-600 bg-red-600;
+}
+
+.linkBlock.ri:hover hr {
+  @apply border-green-300 bg-green-300;
+}
+
+.linkBlock.wl:hover .arrow {
+  @apply stroke-yellow-300;
+ }
+
+ .linkBlock.speedo:hover .arrow {
+  @apply stroke-red-600;
+ }
+
+.linkBlock.ri:hover .arrow {
+ @apply stroke-green-300;
 }
 
 .quoteBlockbg--wl {

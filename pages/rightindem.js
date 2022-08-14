@@ -30,7 +30,7 @@ export default function Rightindem() {
           initial="initial"
           animate="enter"
           exit="exit"
-          className="mb-12 md:mb-16 xl:mb-24"
+          className="mb-12 md:mb-16 xl:mb-8"
         >
           <Container>
             <m.div variants={fade}>
@@ -65,7 +65,7 @@ export default function Rightindem() {
 
                     <p>
                       <i>
-                        Frontend design - HTML and CSS for React components,
+                        Frontend Design - HTML and CSS for React components,
                         built marketing sites in React and Wordpress.
                       </i>
                     </p>
@@ -85,6 +85,7 @@ export default function Rightindem() {
                         href="https://rightindem.com/"
                         target="_blank"
                         rel="noopener noreferrer"
+                        className="hover:decoration-emerald-400"
                       >
                         RightIndem
                       </a>{" "}
@@ -178,7 +179,7 @@ export default function Rightindem() {
                 a11yText="Navigate to WAERlinx"
                 title="WAERLINX"
                 textColorClasses="from-yellow-500 to-yellow-800"
-                bgColorClasses="dark:bg-gray-800 bg-gray-200"
+                bgColorClasses="dark:bg-gray-800 bg-gray-200 wl"
                 num="Next Project"
                 company="WAER Systems"
                 skill_1="Lead Product Designer"

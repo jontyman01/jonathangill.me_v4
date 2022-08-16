@@ -3,7 +3,7 @@ import Document, { Html, Head, Main, NextScript } from 'next/document'
 export default class MyDocument extends Document {
   render() {
     return (
-      <Html lang="en">
+      <Html lang="en" className="dark">
         <Head>
           <meta name="theme-color" content="#111827" />
           <link rel="manifest" href="https://jonathangill.me/favicons/manifest.json"/>

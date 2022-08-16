@@ -17,8 +17,6 @@ import RIApp2 from "../src/img/rightindem/product1.png";
 import RIADamage from "../src/img/rightindem/damage-concepts.jpg";
 import RIdash from "../src/img/rightindem/dashboard-hifi.png";
 
-import RIPrint from "../src/img/rightindem/ri-print.jpg";
-
 export default function Rightindem() {
   return (
     <Layout>
@@ -161,12 +159,7 @@ export default function Rightindem() {
                     className="rounded-md text-center"
                     placeholder="blur"
                   />
-                <Image
-                    src={RIPrint}
-                    alt="Picture of RI Merc"
-                    className="rounded-md text-center"
-                    placeholder="blur"
-                  />
+               
                 </div>
               </div>
 

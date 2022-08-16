@@ -62,7 +62,7 @@ export default function Home() {
               </div>
 
               <div className="mb-4 p-4 md:p-6 rounded-md bg-gradient-to-r from-gray-800 to-purple-900">
-                <p className="text-gray-400 pb-4">Specializing In</p>
+                <p className="text-gray-400 pb-4">Specialising In</p>
                 <Collapsible
                   trigger="UI DESIGN &amp; DESIGN SYSTEMS"
                   transitionTime="150"
@@ -76,14 +76,14 @@ export default function Home() {
                   transitionTime="150"
                 >
                   <p className="pb-4">I aim to understand the user's needs and pain points on any project in order to create the best design for them possible.</p>
-                  <p className="pb-4">Whether that's asking directly via workshops, surveys, or observing via site visits and analytics, I can gather these requirements and translate them into wireframes for feedback before the UI phase.</p>
+                  <p className="pb-4">Whether that's asking directly via workshops, surveys, observing via site visits and analytics - or by working closely with stakeholders and UX researchers, I can gather these requirements and translate them into wireframes ready for feedback.</p>
                 </Collapsible>
 
                 <Collapsible
                   trigger="FRONTEND DESIGN"
                   transitionTime="150"
                 >
-                  <p className="pb-4">I've been coding websites for as long as I've been designing. I have proven experience integrating into software teams to build designs and can advise on best UI development practices.</p> 
+                  <p className="pb-4">I've been coding websites for as long as I've been designing. I have proven experience integrating into software teams to translate designs into HTML &amp; CSS, or building whole websites and can advise on best UI development practices.</p> 
                   <p className="pb-4">Whatever the context of the project, whether it's React, .NET, has a CMS like wordpress, or anything in-between, I aim to create functional and great looking experiences on any device.</p>
                 </Collapsible>
               </div>

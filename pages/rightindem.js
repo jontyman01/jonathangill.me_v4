@@ -28,7 +28,7 @@ export default function Rightindem() {
           initial="initial"
           animate="enter"
           exit="exit"
-          className="mb-12 md:mb-16 xl:mb-8"
+          className="mb-12 md:mb-16 xl:mb-8 md:pt-2"
         >
           <Container>
             <m.div variants={fade}>

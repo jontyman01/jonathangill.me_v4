@@ -30,7 +30,7 @@ export default function waerlinx() {
           initial="initial"
           animate="enter"
           exit="exit"
-          className="mb-12 md:mb-16 xl:mb-8"
+          className="mb-12 md:mb-16 xl:mb-8 md:pt-2"
         >
           <Container>
             <m.div variants={fade}>
@@ -122,7 +122,7 @@ export default function waerlinx() {
                           MUI
                         </a>, where I directed the UI
                       components to be built in <a href="https://storybook.js.org/" target="_blank" className="hover:decoration-yellow-400" rel="noopener noreferrer">Storybook</a> for re-uability and
-                      testing of components in multiple screen situations.
+                      testing of components in multiple screen situations. So far customer feedback has been positive and encouraging.
                     </p>
                   </div>
                 </div>

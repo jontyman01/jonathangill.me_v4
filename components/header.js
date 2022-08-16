@@ -13,7 +13,7 @@ export default function Header() {
 
           <nav className="ml-auto flex space-x-3 w-full text-sm md:text-base md:w-auto">
 
-            <a href="mailto:jonathangill.me"><AiFillMail className="inline"/> <span className="transition ease-in-out delay-100 duration-200 hover:underline decoration-indigo-500 focus:text-gray-500 decoration-2">Say Hello</span></a>
+            <a href="mailto:hello@jonathangill.me"><AiFillMail className="inline"/> <span className="transition ease-in-out delay-100 duration-200 hover:underline decoration-indigo-500 focus:text-gray-500 decoration-2">Say Hello</span></a>
 
           </nav>
         </div>

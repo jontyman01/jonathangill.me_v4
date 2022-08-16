@@ -22,13 +22,13 @@ export default function Home() {
           initial="initial"
           animate="enter"
           exit="exit"
-          className="mb-12 md:mb-16 xl:mb-8"
+          className="mb-12 md:mb-16 xl:mb-8 md:pt-2"
         >
           <Container>
             <m.article variants={fade}>
               <div className="md:flex flex-row pb-4">
                 <div className="md:mr-2 rounded-md basis-1/1 md:basis-2/3 bg-gradient-to-r from-green-800 to-blue-900 p-4 md:p-6 mb-4 md:mb-0 flex items-center">
-                  <p className="text-3xl">
+                  <p className="md:text-3xl text-2xl">
                     Hi, I'm Jon 👋 I have nearly a decade of experience
                     designing and delivering bespoke, user focussed digital
                     products, grounded in clear rationale.
@@ -66,6 +66,7 @@ export default function Home() {
                 <Collapsible
                   trigger="UI DESIGN &amp; DESIGN SYSTEMS"
                   transitionTime="150"
+                  tabIndex="1"
                 >
                   <p className="pb-4">I create bespoke UI designs and design systems - in other words, I translate any user experience requirements gathered into re-usable UI components.</p>
                   <p className="pb-4"> From simple elements like buttons, all the way to whole screens that can be arranged and scaled to any screen size.</p>
@@ -74,14 +75,16 @@ export default function Home() {
                 <Collapsible
                   trigger="REQUIREMENTS GATHERING &amp; WIREFRAMING"
                   transitionTime="150"
+                  tabIndex="2"
                 >
                   <p className="pb-4">I aim to understand the user's needs and pain points on any project in order to create the best design for them possible.</p>
                   <p className="pb-4">Whether that's asking directly via workshops, surveys, observing via site visits and analytics - or by working closely with stakeholders and UX researchers, I can gather these requirements and translate them into wireframes ready for feedback.</p>
                 </Collapsible>
 
                 <Collapsible
-                  trigger="FRONTEND DESIGN"
+                  trigger="FRONT END DESIGN"
                   transitionTime="150"
+                  tabIndex="3"
                 >
                   <p className="pb-4">I've been coding websites for as long as I've been designing. I have proven experience integrating into software teams to translate designs into HTML &amp; CSS, or building whole websites and can advise on best UI development practices.</p> 
                   <p className="pb-4">Whatever the context of the project, whether it's React, .NET, has a CMS like wordpress, or anything in-between, I aim to create functional and great looking experiences on any device.</p>
@@ -118,18 +121,7 @@ export default function Home() {
                 bgColorClasses="dark:bg-gray-800 bg-gray-200 ri"
                 num="03"
                 company="RightIndem"
-                skill_1="UI/UX Design &bull; Front End Development &bull; Branding"
-              />
-
-              <LinkBlock
-                destination="/berghaus"
-                a11yText="Navigate to Berghaus"
-                title="BERGHAUS.COM HOMEPAGE"
-                textColorClasses="from-red-400 to-blue-600"
-                bgColorClasses="dark:bg-gray-800 bg-gray-200"
-                num="04"
-                company="Pentland Brands"
-                skill_1="UI/UX Design"
+                skill_1="UI/UX Design | Front End Development | Branding"
               />
 
             </m.article>

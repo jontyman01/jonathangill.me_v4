@@ -68,7 +68,7 @@ export default function Home() {
                   transitionTime="150"
                   tabIndex="1"
                 >
-                  <p className="pb-4">I create bespoke UI designs and design systems - in other words, I translate any user experience requirements gathered into re-usable UI components.</p>
+                  <p className="pb-4">I create bespoke UI designs and design systems - in other words, I translate any user experience requirements gathered into re-usable, accessible UI components.</p>
                   <p className="pb-4"> From simple elements like buttons, all the way to whole screens that can be arranged and scaled to any screen size.</p>
                 </Collapsible>
 
@@ -86,7 +86,7 @@ export default function Home() {
                   transitionTime="150"
                   tabIndex="3"
                 >
-                  <p className="pb-4">I've been coding websites for as long as I've been designing. I have proven experience integrating into software teams to translate designs into HTML &amp; CSS, or building whole websites and can advise on best UI development practices.</p> 
+                  <p className="pb-4">I've been coding websites for as long as I've been designing. I have proven experience integrating into software teams to translate designs into HTML &amp; CSS, or building whole websites and can advise on best UI development and accessiblity practices.</p> 
                   <p className="pb-4">Whatever the context of the project, whether it's React, .NET, has a CMS like wordpress, or anything in-between, I aim to create functional and great looking experiences on any device.</p>
                 </Collapsible>
               </div>

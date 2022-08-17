@@ -16,7 +16,7 @@ export default class MyDocument extends Document {
           <link rel="shortcut icon" href="https://jonathangill.me/favicons/favicon.ico"/>
         </Head>
         
-        <body className="bg-gray-100 dark:bg-gray-900 dark:text-slate-50">
+        <body className="bg-gray-900 text-slate-50">
           <Main />
           <NextScript />
         </body>

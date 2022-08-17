@@ -172,7 +172,7 @@ export default function Rightindem() {
                 a11yText="Navigate to WAERlinx"
                 title="WAERLINX"
                 textColorClasses="from-yellow-500 to-yellow-800"
-                bgColorClasses="dark:bg-gray-800 bg-gray-200 wl"
+                bgColorClasses="bg-gray-800 wl"
                 num="Next Project"
                 company="WAER Systems"
                 skill_1="Lead Product Designer"

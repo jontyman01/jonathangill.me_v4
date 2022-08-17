@@ -181,7 +181,7 @@ export default function waerlinx() {
                 a11yText="Navigate to Speedo"
                 title="SPEEDO.COM"
                 textColorClasses="from-red-500 to-orange-800"
-                bgColorClasses="dark:bg-gray-800 bg-gray-200 speedo"
+                bgColorClasses="bg-gray-800 speedo"
                 num="Next Project"
                 company="Pentland Brands"
                 skill_1="Lead UI Designer"

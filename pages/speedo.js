@@ -163,7 +163,7 @@ export default function speedo() {
                 a11yText="Navigate to Rightindem"
                 title="RightIndem"
                 textColorClasses="from-green-500 to-emerald-800"
-                bgColorClasses="dark:bg-gray-800 bg-gray-200 mt-4 ri"
+                bgColorClasses="bg-gray-800 mt-4 ri"
                 num="Next Project"
                 company="Right Indemnity"
                 skill_1="UI/UX Design | Front End Development | Branding"

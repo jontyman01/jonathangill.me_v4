@@ -91,6 +91,7 @@ export default function Home() {
                 </Collapsible>
               </div>
 
+              <p className="bg-gradient-to-r from-red-900 to-pink-900 rounded-md p-4 md:p-6 mb-4 md:text-2xl text-3xl ">Selected Projects</p>
               <LinkBlock
                 destination="/waerlinx"
                 a11yText="Navigate to WAERlinx"

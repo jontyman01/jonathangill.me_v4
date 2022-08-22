@@ -57,7 +57,7 @@ export default function Home() {
                       RIGHTINDEM
                     </span>
                   </p>
-                  <p className="pt-2">+ Many More</p>
+                  <p className="text-gray-400 pt-2">+ Many More</p>
                 </div>
               </div>
 

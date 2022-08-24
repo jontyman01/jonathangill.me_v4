@@ -168,14 +168,14 @@ export default function Rightindem() {
               </p>
 
               <LinkBlock
-                destination="/waerlinx"
-                a11yText="Navigate to WAERlinx"
-                title="WAERLINX"
-                textColorClasses="from-yellow-500 to-yellow-800"
-                bgColorClasses="bg-gray-800 wl"
+                destination="/berghaus"
+                a11yText="Navigate to Berghaus"
+                title="BERGHAUS.COM HOMEPAGE"
+                textColorClasses="from-blue-500 to-red-800"
+                bgColorClasses="bg-gray-800 bh"
                 num="Next Project"
-                company="WAER Systems"
-                skill_1="Lead Product Designer"
+                company="Pentland Brands"
+                skill_1="UI Design"
               />
 
             </m.div>

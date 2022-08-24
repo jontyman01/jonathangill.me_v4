@@ -73,7 +73,7 @@ export default function toptal() {
 
               <p className="bg-gray-800 rounded-md p-4 md:p-6 mb-10 text-lg">
 
-                And <a href="/speedo">Pentland Brands</a>, where I lead the UI re-design for speedo.com from the ground up To reflect the status of Speedo as a premium brand, reinforce its position in the competitive swimwear market, and to embrace the fun, vibrancy and the diversity of Speedos customers.</p>
+                And <a href="/speedo">Pentland Brands</a>, where I lead the UI re-design for speedo.com from the ground up to reflect the status of Speedo as a premium brand, reinforce its position in the competitive swimwear market, and to embrace the fun, vibrancy and the diversity of Speedos customers.</p>
 
               <p className="bg-gray-800 rounded-md p-4 md:p-6 mb-8 text-lg">
                 I hope you will consider my application. Thanks!</p>

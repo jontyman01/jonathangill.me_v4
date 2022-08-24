@@ -44,7 +44,7 @@ export default function Home() {
                     <span className="text-transparent bg-clip-text bg-gradient-to-r inline-block from-yellow-400 to-yellow-500 pr-2">
                       WAER SYSTEMS
                     </span>
-                    <span className="text-transparent bg-clip-text bg-gradient-to-r inline-block from-red-400 to-blue-600 pr-2">
+                    <span className="text-transparent bg-clip-text bg-gradient-to-r inline-block from-blue-600 to-red-400 pr-2">
                       BERGHAUS
                     </span>
                     <span className="text-transparent bg-clip-text bg-gradient-to-r inline-block from-red-600 to-red-900 pr-2">
@@ -86,7 +86,7 @@ export default function Home() {
                   transitionTime="150"
                   tabIndex="3"
                 >
-                  <p className="pb-4">I've been coding websites for as long as I've been designing. I have proven experience integrating into software teams to translate designs into HTML &amp; CSS, or building whole websites and can advise on best UI development and accessiblity practices.</p> 
+                  <p className="pb-4">I've been coding websites for as long as I've been designing. I have proven experience integrating into software teams to translate designs into HTML &amp; CSS, or building whole websites and can advise on best UI development and accessiblity practices.</p>
                   <p className="pb-4">Whatever the context of the project, whether it's React, .NET, has a CMS like wordpress, or anything in-between, I aim to create functional and great looking experiences on any device.</p>
                 </Collapsible>
               </div>
@@ -123,6 +123,17 @@ export default function Home() {
                 num="03"
                 company="RightIndem"
                 skill_1="UI/UX Design | Front End Development | Branding"
+              />
+
+              <LinkBlock
+                destination="/berghaus"
+                a11yText="Navigate to Berghaus"
+                title="BERGHAUS.COM HOMEPAGE"
+                textColorClasses="from-blue-600 to-red-400"
+                bgColorClasses="bg-gray-800 bh"
+                num="04"
+                company="Pentland Brands"
+                skill_1="UI Design"
               />
 
             </m.article>

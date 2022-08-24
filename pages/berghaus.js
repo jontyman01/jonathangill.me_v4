@@ -25,7 +25,7 @@ import slideshow from '../src/img/berghaus-homepage/slideshow.jpg';
 export default function berghaus() {
   return (
     <Layout>
-      <NextSeo title="BERGHAUS.COM HOMEPAGE" />
+      <NextSeo title="Berghaus.com Homepage" />
 
       <Header />
 

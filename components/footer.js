@@ -17,7 +17,7 @@ export default function Footer() {
               <a href='https://twitter.com/jontyman01' target="_blank"><span className="block"><AiFillTwitterCircle className='inline' /> <span className='hover:underline hover:decoration-cyan-500 decoration-2 focus:text-gray-500'>Twitter</span></span></a>
               <span className="block px-3 text-gray-400">&bull;</span>
 
-              <a href='https://github.com/jontyman01/jonathangill.me_v4' target="_blank"><span className="block"><AiFillGithub className='inline' /> <span className='hover:underline hover:decoration-cyan-500 decoration-2 focus:text-gray-500'>View Source Code</span></span></a>
+              <a href='https://github.com/jontyman01/jonathangill.me_v4' target="_blank"><span className="block"><AiFillGithub className='inline' /> <span className='hover:underline hover:decoration-cyan-500 decoration-2 focus:text-gray-500'>View My Source Code</span></span></a>
 
             </div>
 

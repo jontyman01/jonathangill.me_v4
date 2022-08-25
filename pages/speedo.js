@@ -82,7 +82,7 @@ export default function speedo() {
 
                     <p className="pb-4">
                       The identity was shaped by regular stakeholder meetings
-                      and consumer research.Ultimately the main goals of the
+                      and consumer research. Ultimately the main goals of the
                       brand refresh that were discovered and established were -
                     </p>
 
@@ -96,7 +96,7 @@ export default function speedo() {
                       </li>
                       <li>
                         To embrace fun, vibrancy and the diversity of speedos
-                        customers - embrace the 'budgy smugglers!'
+                        customers - embrace the 'budgy smugglers!'.
                       </li>
                     </ul>
 

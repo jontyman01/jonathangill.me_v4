@@ -12,6 +12,7 @@ import { LazyMotion, domAnimation, m } from "framer-motion";
 import { NextSeo } from "next-seo";
 
 import wlHeader from "../src/img/waerlinx/pickup1.jpg";
+import wlPersonnas from "../src/img/waerlinx/personnas.jpg";
 import wlmultiUI from "../src/img/waerlinx/inventory-move-putaway-mob-min.png";
 import wlwireframes from "../src/img/waerlinx/wireframes.png";
 import wlmoveimg from "../src/img/waerlinx/move2.jpg";
@@ -44,7 +45,7 @@ export default function waerlinx() {
               </div>
 
               <div className="bg-gray-800 rounded-md p-4 md:p-6 mb-8">
-                
+
 
                 <div className="md:flex flex-row">
                   <div className="md:pr-2 rounded-md basis-1/1 md:basis-1/4 bg-gradient-to-r mb-4 md:mb-0 font-light">
@@ -89,7 +90,7 @@ export default function waerlinx() {
 
                   <div className="md:ml-2 rounded-md basis-1/1 md:basis-3/4 md:p-6">
                     <p className="text-lg font-bold pb-4">
-                    <a href="https://waersystems.com/" target="_blank" className="hover:decoration-yellow-400" rel="noopener noreferrer">WAER Systems</a> is the creator of WAERLinx, a WMS (warehouse
+                      <a href="https://waersystems.com/" target="_blank" className="hover:decoration-yellow-400" rel="noopener noreferrer">WAER Systems</a> is the creator of WAERLinx, a WMS (warehouse
                       management system) for businesses that run NetSuite as
                       their ERP.
                     </p>
@@ -113,20 +114,32 @@ export default function waerlinx() {
                       From this, a Design System was established and a full UI
                       design of screens were created. This was then picked up by
                       a front-end developer and built in React and {" "}
-                        <a
-                          href="https://mui.com/"
-                          target="_blank"
-                          rel="noopener noreferrer"
-                          className="hover:decoration-yellow-400"
-                        >
-                          MUI
-                        </a>, where I directed the UI
+                      <a
+                        href="https://mui.com/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="hover:decoration-yellow-400"
+                      >
+                        MUI
+                      </a>, where I directed the UI
                       components to be built in <a href="https://storybook.js.org/" target="_blank" className="hover:decoration-yellow-400" rel="noopener noreferrer">Storybook</a> for re-uability and
                       testing of components in multiple screen situations. So far customer feedback has been positive and encouraging.
                     </p>
                   </div>
                 </div>
               </div>
+
+              <div className="md:flex flex-row pb-8 justify-center text-center pt-2">
+                <div className="md:basis-1/2 md:pr-1">
+                  <Image
+                    src={wlPersonnas}
+                    alt="Picture of Inventory Move Wireframes"
+                    className="rounded-md"
+                    placeholder="blur"
+                  />
+                </div>
+              </div>
+
 
               <Image
                 src={wlwireframes}

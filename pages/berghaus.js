@@ -43,6 +43,7 @@ export default function berghaus() {
                   src={bhHeader}
                   alt="Picture of walkers"
                   className="rounded-md"
+                  layout="responsive"
                   placeholder="blur"
                 />
               </div>
@@ -139,8 +140,9 @@ export default function berghaus() {
               <Image
                 src={slideshow}
                 alt="Picture of bh homepage slideshow component"
-                className="rounded-md text-center"
+                className="rounded-md w-full"
                 placeholder="blur"
+                layout="responsive"
               />
 
               <p className="bg-gray-800 rounded-md p-4 md:p-6 mb-2 mt-4 text-lg">Comparing the implemented design change to the same time 9 weeks after Launch:</p>
@@ -170,16 +172,17 @@ export default function berghaus() {
               <Image
                 src={hifiDesktop}
                 alt="Picture of Hi-Fi Design Desktop"
-                className="rounded-md text-center"
+                className="rounded-md"
                 placeholder="blur"
+                layout="responsive"
               />
 
-              <div className="md:flex flex-row pb-8 justify-center text-center">
+              <div className="md:flex flex-row pb-8 justify-center text-center pt-2">
                 <div className="md:basis-1/2 md:pr-1">
                   <Image
                     src={hifiMobile}
                     alt="Picture of Hi-Fi Design Mobile"
-                    className="rounded-md text-center"
+                    className="rounded-md"
                     placeholder="blur"
                   />
                 </div>

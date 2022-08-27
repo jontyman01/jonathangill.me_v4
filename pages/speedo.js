@@ -6,7 +6,7 @@ import Footer from "@/components/footer";
 import Container from "@/components/container";
 import LinkBlock from "@/components/linkBlock";
 import QuoteBlock from "@/components/quoteBlock";
-import { FiExternalLink } from 'react-icons/fi';
+import { FiExternalLink } from "react-icons/fi";
 
 import { fade } from "@/helpers/transitions";
 import { LazyMotion, domAnimation, m } from "framer-motion";
@@ -52,8 +52,17 @@ export default function speedo() {
                     <h1 className="font-bold text-2xl md:text-3xl xl:text-4xl mb-4 text-transparent bg-clip-text bg-gradient-to-r from-red-500 to-orange-800 inline-block">
                       SPEEDO.COM
                     </h1>
-          
-                    <p><FiExternalLink className="inline" /> <a href="https://www.speedo.com" target="_blank" className="italic hover:decoration-red-400">Visit Site</a></p>
+
+                    <p>
+                      <FiExternalLink className="inline" />{" "}
+                      <a
+                        href="https://www.speedo.com"
+                        target="_blank"
+                        className="italic hover:decoration-red-400"
+                      >
+                        Visit Site
+                      </a>
+                    </p>
 
                     <hr className="h-px border-b border-gray-500 bg-gray-500 mb-4 mt-4" />
 
@@ -129,29 +138,27 @@ export default function speedo() {
                 placeholder="blur"
               />
 
-
-
               <div className="md:flex flex-row pb-8 justify-center text-center pt-2">
                 <div className="md:basis-1/2 md:pr-1">
-                <Image
+                  <Image
                     src={SpeedoBlog}
                     alt="Picture of Speedo Blog Component"
                     className="rounded-md"
                     placeholder="blur"
                   />
                 </div>
-                </div>
+              </div>
 
-                <div className="md:flex flex-row pb-8 justify-center text-center pt-2">
+              <div className="md:flex flex-row pb-8 justify-center text-center pt-2">
                 <div className="md:basis-1/2 md:pr-1">
-                <Image
+                  <Image
                     src={SpeedoCarousel}
                     alt="Picture of Speedo Carousel Component"
                     className="rounded-md"
                     placeholder="blur"
                   />
                 </div>
-                </div>
+              </div>
 
               <Image
                 src={SpeedoLaptop}
@@ -160,7 +167,9 @@ export default function speedo() {
                 placeholder="blur"
               />
 
-              <p className="bg-gray-800 rounded-md p-4 md:p-6 my-8 italic">This work was created at &amp; is property of Pentland Brands.</p>
+              <p className="bg-gray-800 rounded-md p-4 md:p-6 my-8 italic">
+                This work was created at &amp; is property of Pentland Brands.
+              </p>
 
               <LinkBlock
                 destination="/rightindem"

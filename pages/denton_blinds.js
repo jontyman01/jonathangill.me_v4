@@ -40,13 +40,13 @@ export default function denton_blinds() {
         >
           <Container>
             <m.div variants={fade}>
-
-            <div className="mb-8">
+              <div className="mb-8">
                 <Image
                   src={DB_Runner}
                   alt="Picture of Denton UI"
                   className="rounded-md"
                   placeholder="blur"
+                  layout="responsive"
                 />
               </div>
 
@@ -84,15 +84,16 @@ export default function denton_blinds() {
                     <p className="text-lg font-bold pb-4">
                       Denton blinds is a small independent company specialising
                       in the supply and installation of high quality blinds,
-                      awnings and canopies. Established in 1982 as a family
-                      run business, they have 35 years of experience in the
-                      blinds industry. They wanted a complete redesign of their
-                      website and branding.
+                      awnings and canopies. Established in 1982 as a family run
+                      business, they have 35 years of experience in the blinds
+                      industry. They wanted a complete redesign of their website
+                      and branding.
                     </p>
 
                     <p className="text-lg pb-4">
-                      I created a new tone and feel of the
-                      branding by creating a new logo and website with the aim of a contemporary look to attracting more leads.
+                      I created a new tone and feel of the branding by creating
+                      a new logo and website with the aim of a contemporary look
+                      to attracting more leads.
                     </p>
                   </div>
                 </div>
@@ -118,10 +119,10 @@ export default function denton_blinds() {
               </div>
 
               <p className="bg-gray-800 rounded-md p-4 md:p-6 mb-10 text-lg">
-                For the website, I was given a brief that detailed how the site should be structured, with
-                details on the key messages, unique selling points of the
-                company and call to actions that should go into the site. Below
-                is a sitemap visualizing this flow.
+                For the website, I was given a brief that detailed how the site
+                should be structured, with details on the key messages, unique
+                selling points of the company and call to actions that should go
+                into the site. Below is a sitemap visualizing this flow.
               </p>
 
               <Image
@@ -131,11 +132,14 @@ export default function denton_blinds() {
                 placeholder="blur"
               />
 
-              <QuoteBlock bgColorClasses="quoteBlockbg--db" quote=" Following on from the look and feel created from the logo, I
+              <QuoteBlock
+                bgColorClasses="quoteBlockbg--db"
+                quote=" Following on from the look and feel created from the logo, I
                 created a wireframe based on a clean, flat, tile based layout,
                 while making the most of the photography available, and while
                 getting across the key messages and information about the
-                company needed." />
+                company needed."
+              />
 
               <Image
                 src={D_wireframe}

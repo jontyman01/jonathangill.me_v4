@@ -105,6 +105,10 @@ p a {
 .linkBlock.bh:hover .arrow {
   @apply stroke-red-300;
  }
+
+ .linkBlock.db:hover .arrow {
+  stroke:#8B7D99;
+ }
  
 
 .quoteBlockbg--wl {
@@ -122,4 +126,8 @@ p a {
 
 .quoteBlockbg--bh {
   background:radial-gradient(50% 50% at 50% 50%, #770101 0%, #150089 100%);
+}
+
+.quoteBlockbg--db {
+  background:radial-gradient(50% 50% at 50% 50%, #54534c 0%, #2F2934 100%);
 }

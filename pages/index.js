@@ -68,8 +68,16 @@ export default function Home() {
                   transitionTime="150"
                   tabIndex="1"
                 >
-                  <p className="pb-4">I create bespoke UI designs and design systems - in other words, I translate any user experience requirements gathered into re-usable, accessible UI components.</p>
-                  <p className="pb-4"> From simple elements like buttons, all the way to whole screens that can be arranged and scaled to any screen size.</p>
+                  <p className="pb-4">
+                    I create bespoke UI designs and design systems - in other
+                    words, I translate any user experience requirements gathered
+                    into re-usable, accessible UI components.
+                  </p>
+                  <p className="pb-4">
+                    {" "}
+                    From simple elements like buttons, all the way to whole
+                    screens that can be arranged and scaled to any screen size.
+                  </p>
                 </Collapsible>
 
                 <Collapsible
@@ -77,8 +85,18 @@ export default function Home() {
                   transitionTime="150"
                   tabIndex="2"
                 >
-                  <p className="pb-4">I aim to understand the user's needs and pain points on any project in order to create the best design for them possible.</p>
-                  <p className="pb-4">Whether that's asking directly via workshops, surveys, observing via site visits and analytics - or by working closely with stakeholders and UX researchers, I can gather these requirements and translate them into wireframes ready for feedback.</p>
+                  <p className="pb-4">
+                    I aim to understand the user's needs and pain points on any
+                    project in order to create the best design for them
+                    possible.
+                  </p>
+                  <p className="pb-4">
+                    Whether that's asking directly via workshops, surveys,
+                    observing via site visits and analytics - or by working
+                    closely with stakeholders and UX researchers, I can gather
+                    these requirements and translate them into wireframes ready
+                    for feedback.
+                  </p>
                 </Collapsible>
 
                 <Collapsible
@@ -86,12 +104,25 @@ export default function Home() {
                   transitionTime="150"
                   tabIndex="3"
                 >
-                  <p className="pb-4">I've been coding websites for as long as I've been designing. I have proven experience integrating into software teams to translate designs into HTML &amp; CSS, or building whole websites and can advise on best UI development and accessiblity practices.</p>
-                  <p className="pb-4">Whatever the context of the project, whether it's React, .NET, has a CMS like wordpress, or anything in-between, I aim to create functional and great looking experiences on any device.</p>
+                  <p className="pb-4">
+                    I've been coding websites for as long as I've been
+                    designing. I have proven experience integrating into
+                    software teams to translate designs into HTML &amp; CSS, or
+                    building whole websites and can advise on best UI
+                    development and accessiblity practices.
+                  </p>
+                  <p className="pb-4">
+                    Whatever the context of the project, whether it's React,
+                    .NET, has a CMS like wordpress, or anything in-between, I
+                    aim to create functional and great looking experiences on
+                    any device.
+                  </p>
                 </Collapsible>
               </div>
 
-              <p className="bg-gradient-to-r from-red-900 to-pink-900 rounded-md p-4 md:p-6 mb-4 md:text-2xl text-xl ">Selected Projects</p>
+              <p className="bg-gradient-to-r from-red-900 to-pink-900 rounded-md p-4 md:p-6 mb-4 md:text-2xl text-xl ">
+                Selected Projects
+              </p>
               <LinkBlock
                 destination="/waerlinx"
                 a11yText="Navigate to WAERlinx"
@@ -134,6 +165,28 @@ export default function Home() {
                 num="04"
                 company="Pentland Brands"
                 skill_1="UI Design"
+              />
+
+              <LinkBlock
+                destination="/waerbi"
+                a11yText="Navigate to waerb.i"
+                title="WAERb.i"
+                textColorClasses="from-yellow-500 to-yellow-800"
+                bgColorClasses="bg-gray-800 wl"
+                num="05"
+                company="WAER Systems"
+                skill_1="Lead Product Designer"
+              />
+
+              <LinkBlock
+                destination="/denton_blinds"
+                a11yText="Navigate to Denton Blinds"
+                title="Denton Blinds"
+                textColorClasses="from-[#8B7D99] to-[#EAE6D2]"
+                bgColorClasses="bg-gray-800 db"
+                num="06"
+                company="WAER Systems"
+                skill_1="UI/UX Design | Wordpress Development"
               />
 
             </m.article>

@@ -102,7 +102,7 @@ export default function berghaus() {
                 </div>
               </div>
 
-              <p className="bg-gray-800 rounded-md p-4 md:p-6 mb-10 text-lg">As the brand direction was focused on a yonger audience, the UI needed to be updated to reflect this. This meant researching competitors UI.</p>
+              <p className="bg-gray-800 rounded-md p-4 md:p-6 mb-10 text-lg">As the brand direction was focused on a younger audience, the UI needed to be updated to reflect this. This meant researching competitors UI.</p>
 
               <div className="md:flex flex-row pb-8 justify-center text-center">
                 <div className="md:basis-1/2 md:pr-1">
@@ -191,13 +191,13 @@ export default function berghaus() {
               <p className="bg-gray-800 rounded-md p-4 md:p-6 my-8 italic">This work was created at &amp; is property of Pentland Brands.</p>
 
               <LinkBlock
-                destination="/waerlinx"
-                a11yText="Navigate to WAERlinx"
-                title="WAERLINX"
+                destination="/waerbi"
+                a11yText="Navigate to WAERb.i"
+                title="WAERb.i"
                 textColorClasses="from-yellow-500 to-yellow-800"
                 bgColorClasses="bg-gray-800 wl"
                 num="Next Project"
-                company="WAER Systems"
+                company="WAERb.i"
                 skill_1="Lead Product Designer"
               />
 

@@ -129,25 +129,29 @@ export default function speedo() {
                 placeholder="blur"
               />
 
-              <div className="md:flex flex-row pb-8">
+
+
+              <div className="md:flex flex-row pb-8 justify-center text-center pt-2">
                 <div className="md:basis-1/2 md:pr-1">
-                  <Image
+                <Image
                     src={SpeedoBlog}
                     alt="Picture of Speedo Blog Component"
                     className="rounded-md"
                     placeholder="blur"
                   />
                 </div>
+                </div>
 
-                <div className=" md:basis-1/2 md:pl-1">
-                  <Image
+                <div className="md:flex flex-row pb-8 justify-center text-center pt-2">
+                <div className="md:basis-1/2 md:pr-1">
+                <Image
                     src={SpeedoCarousel}
                     alt="Picture of Speedo Carousel Component"
                     className="rounded-md"
                     placeholder="blur"
                   />
                 </div>
-              </div>
+                </div>
 
               <Image
                 src={SpeedoLaptop}

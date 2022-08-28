@@ -84,16 +84,14 @@ export default function denton_blinds() {
                     <p className="text-lg font-bold pb-4">
                       Denton blinds is a small independent company specialising
                       in the supply and installation of high quality blinds,
-                      awnings and canopies. Established in 1982 as a family run
-                      business, they have 35 years of experience in the blinds
-                      industry. They wanted a complete redesign of their website
-                      and branding.
+                      awnings and canopies.
                     </p>
-
                     <p className="text-lg pb-4">
-                      I created a new tone and feel of the branding by creating
-                      a new logo and website with the aim of a contemporary look
-                      to attracting more leads.
+                      I was tasked with creating a new logo and website design.
+                      For the logo they wanted something contemporary and
+                      unique, so after a few ideas we settled on the letter D as
+                      a blind itself, giving a bold and distinctive marque.
+                      Below shows their old logo vs their chosen new logo.
                     </p>
                   </div>
                 </div>
@@ -122,7 +120,7 @@ export default function denton_blinds() {
                 For the website, I was given a brief that detailed how the site
                 should be structured, with details on the key messages, unique
                 selling points of the company and call to actions that should go
-                into the site. Below is a sitemap visualizing this flow.
+                into the site.
               </p>
 
               <Image
@@ -132,15 +130,6 @@ export default function denton_blinds() {
                 placeholder="blur"
               />
 
-              <QuoteBlock
-                bgColorClasses="quoteBlockbg--db"
-                quote=" Following on from the look and feel created from the logo, I
-                created a wireframe based on a clean, flat, tile based layout,
-                while making the most of the photography available, and while
-                getting across the key messages and information about the
-                company needed."
-              />
-
               <Image
                 src={D_wireframe}
                 alt="Denton Blinds wireframe"
@@ -148,10 +137,16 @@ export default function denton_blinds() {
                 placeholder="blur"
               />
 
+              <QuoteBlock
+                bgColorClasses="quoteBlockbg--db"
+                quote=" As they wanted to convey the feeling of a premium brand, I chose a colour scheme centered around dark purple as this is often associated with luxury."
+              />
+
               <p className="bg-gray-800 rounded-md p-4 md:p-6 my-5 text-lg">
-                Following the colour scheme created in the logo design, I
-                created a final mockup design to show to the client, before
-                proceeding with the build of the site.
+                The site itself was built with a blank wordpress theme as a
+                basis that I then developed against a mockup I created of the
+                main templates agreed upon by Denton. The site launch was
+                successful and is mostly unchanged after 7 years.
               </p>
 
               <Image
@@ -179,7 +174,7 @@ export default function denton_blinds() {
                 placeholder="blur"
               />
 
-              <p className="bg-gray-800 rounded-md p-4 md:p-6 mb-8 italic">
+              <p className="bg-gray-800 rounded-md p-4 md:p-6 my-4 italic">
                 This work was created at &amp; is property of Adtrak LLP.
               </p>
 

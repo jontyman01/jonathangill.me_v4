@@ -57,8 +57,8 @@ export default function waerlinx() {
 
                     <p>
                       <i>
-                        UX Research - In person observation, Customer
-                        Interviews, surveys.
+                        UX Research - In person observation, customer
+                        interviews, surveys.
                       </i>
                     </p>
 
@@ -74,7 +74,7 @@ export default function waerlinx() {
 
                     <p>
                       <i>
-                        UI Design - Design System built in Figma using{" "}
+                        UI Design - Design system built in Figma using{" "}
                         <a
                           href="https://mui.com/"
                           target="_blank"

@@ -67,7 +67,7 @@ export default function speedo() {
                     <hr className="h-px border-b border-gray-500 bg-gray-500 mb-4 mt-4" />
 
                     <p>
-                      <i>UI Research - comparing competitors</i>
+                      <i>UI Research - comparing competitors.</i>
                     </p>
 
                     <hr className="h-px border-b border-gray-500 bg-gray-500 mb-4 mt-4" />

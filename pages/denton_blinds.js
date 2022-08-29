@@ -59,12 +59,12 @@ export default function denton_blinds() {
 
                     <hr className="h-px border-b border-gray-500 bg-gray-500 mb-4" />
 
-                    <p>Wireframing, UI Design and Logo Design</p>
+                    <p>Wireframing, UI Design and Logo Design.</p>
 
                     <hr className="h-px border-b border-gray-500 bg-gray-500 mb-4 mt-4" />
 
                     <p>
-                      <i>Web Development for Wordpress</i>
+                      <i>Web Development for Wordpress.</i>
                     </p>
                     <hr className="h-px border-b border-gray-500 bg-gray-500 mb-4 mt-4" />
 

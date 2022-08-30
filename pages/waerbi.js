@@ -152,14 +152,14 @@ export default function waerbi() {
               </p>
 
               <LinkBlock
-                destination="/denton_blinds"
-                a11yText="Navigate to Denton Blinds"
-                title="Denton Blinds"
-                textColorClasses="from-[#8B7D99] to-[#EAE6D2]"
-                bgColorClasses="bg-gray-800 db"
+                destination="/waerlinx"
+                a11yText="Navigate to WAERlinx"
+                title="WAERlinx"
+                textColorClasses="from-yellow-400 to-yellow-500"
+                bgColorClasses="bg-gray-800 wl"
                 num="Next Project"
-                company="Denton Blinds"
-                skill_1="UI/UX Design | Wordpress Development"
+                company="WAERlinx"
+                skill_1="Lead Product Designer"
               />
             </m.div>
           </Container>

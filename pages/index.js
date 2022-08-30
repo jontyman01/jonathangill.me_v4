@@ -178,17 +178,6 @@ export default function Home() {
                 skill_1="Lead Product Designer"
               />
 
-              <LinkBlock
-                destination="/denton_blinds"
-                a11yText="Navigate to Denton Blinds"
-                title="Denton Blinds"
-                textColorClasses="from-[#8B7D99] to-[#EAE6D2]"
-                bgColorClasses="bg-gray-800 db"
-                num="06"
-                company="WAER Systems"
-                skill_1="UI/UX Design | Wordpress Development"
-              />
-
             </m.article>
           </Container>
         </m.main>

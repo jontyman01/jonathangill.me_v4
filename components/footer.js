@@ -14,9 +14,6 @@ export default function Footer() {
               <a href="https://www.linkedin.com/in/gilljonathan" target="_blank" className='pb-1 md:pb-0 block md:inline'><AiFillLinkedin className='inline' /> <span className="hover:underline decoration-2 hover:decoration-blue-400 focus:text-gray-500">LinkedIn</span></a>
               <span className="md:block px-3 text-gray-400 hidden md:visible">&bull;</span>
 
-              <a href='https://twitter.com/jontyman01' target="_blank" className='pb-1 md:pb-0 block md:inline'><span className="block"><AiFillTwitterCircle className='inline' /> <span className='hover:underline hover:decoration-cyan-500 decoration-2 focus:text-gray-500'>Twitter</span></span></a>
-              <span className="md:block px-3 text-gray-400 hidden md:visible">&bull;</span>
-
               <a href='https://github.com/jontyman01/jonathangill.me_v4' target="_blank" className='pb-1 md:pb-0 block md:inline'><span className="block"><AiFillGithub className='inline' /> <span className='hover:underline hover:decoration-cyan-500 decoration-2 focus:text-gray-500'>View My Source Code</span></span></a>
 
             </div>

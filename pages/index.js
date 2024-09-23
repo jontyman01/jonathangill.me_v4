@@ -84,7 +84,7 @@ export default function Home() {
                   transitionTime="150"
                   tabIndex="2"
                 >
-               <p className="pb-4 pt-2">I have experience designing and delivering solutions of all sizes, from small features to entre new products from scratch for some of the worlds largest companies.</p>
+               <p className="pb-4 pt-2">I have experience designing and delivering solutions of all sizes, from small features to entire new products from scratch for some of the world's largest companies.</p>
                   <p className="pb-4">
                   I believe the most effective way to see through a design to smooth release is 
                   to be embedded in both delivery and product teams. This keeps communication strong, allowing for quick reaction to any technical roadblocks and negotiation of the 'art of the possible' for a design to reach the best compromise for both users and business.

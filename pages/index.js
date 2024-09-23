@@ -36,31 +36,31 @@ export default function Home() {
                 </div>
 
                 <div className="md:ml-2 rounded-md basis-1/1 md:basis-1/3 bg-gradient-to-r from-slate-800 to-slate-800 p-4 md:p-6">
-                  <p className="text-gray-400 pb-2">I've Worked With</p>
-                  <p className="text-4xl font-bold">
-                  <span className="text-transparent bg-clip-text bg-gradient-to-r inline-block from-purple-400 to-purple-600 pr-2">
-                      KEELVAR
+                  <p className="text-gray-400 pb-2">I've designed solutions for</p>
+                  <p className="text-3xl font-bold uppercase">
+                  <span className="text-transparent bg-clip-text bg-gradient-to-r inline-block from-red-500 to-orange-800 pr-2">
+                      Coca-cola
+                    </span>
+                    <span className="text-transparent bg-clip-text bg-gradient-to-r inline-block from-teal-500 to-teal-800 pr-2">
+                      Siemens
+                    </span>
+                    <span className="text-transparent bg-clip-text bg-gradient-to-r inline-block from-amber-500 to-amber-800 pr-2">
+                      Nestlé
+                    </span>
+                    <span className="text-transparent bg-clip-text bg-gradient-to-r inline-block from-blue-500 to-blue-800 pr-2">
+                      Mars
                     </span>
                     <span className="text-transparent bg-clip-text bg-gradient-to-r inline-block from-red-500 to-orange-800 pr-2">
-                      SPEEDO
+                      Speedo
                     </span>
-                    <span className="text-transparent bg-clip-text bg-gradient-to-r inline-block from-yellow-400 to-yellow-500 pr-2">
-                      WAER SYSTEMS
+                    <span className="text-transparent bg-clip-text bg-gradient-to-r inline-block from-green-600 to-green-400 pr-2">
+                      Berghaus
                     </span>
-                    <span className="text-transparent bg-clip-text bg-gradient-to-r inline-block from-blue-600 to-red-400 pr-2">
-                      BERGHAUS
-                    </span>
-                    <span className="text-transparent bg-clip-text bg-gradient-to-r inline-block from-red-600 to-red-900 pr-2">
+                    <span className="text-transparent bg-clip-text bg-gradient-to-r inline-block from-red-500 to-red-800 pr-2">
                       SIG
                     </span>
-                    <span className="text-transparent bg-clip-text bg-gradient-to-r inline-block from-orange-400 to-red-700 pr-2">
-                      ELLESSE
-                    </span>
-                    <span className="text-transparent bg-clip-text bg-gradient-to-r inline-block from-green-600 to-emerald-500 pr-2">
-                      RIGHTINDEM
-                    </span>
-                  </p>
-                  <p className="text-gray-400 pt-2">+ Many More</p>
+                    </p>
+                    <p className="text-gray-400 pt-2">+ Many More</p>
                 </div>
               </div>
 
@@ -72,12 +72,12 @@ export default function Home() {
                   tabIndex="2"
                 >
                   <p className="pb-4 pt-2">
-                    I aim to understand customers needs and pain points on any
-                    project in order to create the best design for them
-                    possible, and to be able to track success in clear ways. 
+                    I aim to understand users needs and pain points on any
+                    project as accurately as I can in order to design the best solution
+                    possible. I also aim to track design success in clear ways. 
                   </p>
 
-                 <p className="pb-4 pt-2"> Whether that's enganging with customers directly by quantitative or qualatitive means, or by working closely with stakeholders, I can gather design requirements and translate them into prototypes at any fidelity ready for feedback and quick iteration.</p>
+                 <p className="pb-4 pt-2"> Whether that's enganging with customers directly by quantitative or qualatitive methods, or by working closely with internal stakeholders, I can gather design requirements and translate them into prototypes at any fidelity ready for feedback and quick iteration.</p>
                 </Collapsible>
                 <Collapsible
                   trigger="MANAGING 'THE ART OF THE POSSIBLE'"
@@ -87,7 +87,7 @@ export default function Home() {
                <p className="pb-4 pt-2">I have experience designing and delivering solutions of all sizes, from small features to entre new products from scratch for some of the worlds largest companies.</p>
                   <p className="pb-4">
                   I believe the most effective way to see through a design to smooth release is 
-                  to be embedded in both delivery and product teams. This keeps communication strong, allowing for quick reaction to any technical roadblocks and negotiating the 'art of the possible' quickly and effectively.
+                  to be embedded in both delivery and product teams. This keeps communication strong, allowing for quick reaction to any technical roadblocks and negotiation of the 'art of the possible' for a design to reach the best compromise for both users and business.
                   </p>
                 </Collapsible>
                 <Collapsible
@@ -98,7 +98,7 @@ export default function Home() {
                   <p className="pb-4 pt-2">
                     I can create and develop bespoke UI designs and design systems - in other
                     words, I translate any user experience requirements gathered
-                    into re-usable, accessible UI components.
+                    into re-usable, WCAG compliant UI components.
                   </p>
                   <p className="pb-4">
                     From simple elements like buttons, all the way to whole
@@ -113,7 +113,7 @@ export default function Home() {
                   tabIndex="3"
                 >
                   <p className="pb-4 pt-2">
-                    I have proven experience in helping level up junior and mid-level designers to promotion through constructive and honest feedback, and through running upskilling sessions.
+                    I have proven experience in helping level up junior and mid-level designers to promotion through constructive feedback, and through running upskilling sessions.
                   </p>
                 </Collapsible>
               </div>

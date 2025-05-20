@@ -98,7 +98,7 @@ export default function waerbi() {
                       implementing scripts to calculate the numbers.
                     </p>
                     <p className="text-lg pb-4">
-                      The project is ongoing and in its first few months had
+                      Within its first few months the product had
                       already attracted the signup of a number of WAER
                       customers. I also created the product logo, digital
                       branding materials, marketing site{" "}

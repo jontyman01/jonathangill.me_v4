@@ -97,7 +97,7 @@ export default function waerlinx() {
 
                     <p className="pb-4">
                       As the first full time designer to work on WAERLinx in its
-                      20+ year history, my main focus has been to evaluate,
+                      20+ year history, my main focus was to evaluate,
                       simplify and optimise its design, based on customer needs.
                       The project was a complete redesign of the product, with
                       an inital focus on improving screens for moving inventory.
@@ -197,7 +197,7 @@ export default function waerlinx() {
                 bgColorClasses="bg-gray-800 speedo"
                 num="Next Project"
                 company="Pentland Brands"
-                skill_1="Lead UI Designer"
+                skill_1="Creating a design system from scratch for a global brand."
               />
             </m.div>
           </Container>

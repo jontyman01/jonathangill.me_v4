@@ -179,7 +179,7 @@ export default function speedo() {
                 bgColorClasses="bg-gray-800 mt-4 ri"
                 num="Next Project"
                 company="Right Indemnity"
-                skill_1="UI/UX Design | Front End Development | Branding"
+                skill_1="Rethinking the insurace claim process."
               />
             </m.div>
           </Container>

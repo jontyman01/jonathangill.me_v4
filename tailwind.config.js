@@ -27,6 +27,10 @@ module.exports = {
           DEFAULT: '#d18d67',
           dark: '#ce8860',
         },
+        'k_purple': {
+        400: '#7977F7',
+        600: '#985BF5'
+      },
       }
     },
   },

@@ -110,10 +110,13 @@ p a {
   stroke:#8B7D99;
  }
  
+ .quoteBlockbg--kl {
+  background: radial-gradient(50% 50% at 50% 50%, #4D359C 0%, #00042b 100%);
+  color: #d1ff9f;
+}
 
 .quoteBlockbg--wl {
   background: radial-gradient(50% 50% at 50% 50%, #7b6b00 0%, #00467f 100%);
-  
 }
 
 .quoteBlockbg--sp {

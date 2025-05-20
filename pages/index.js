@@ -29,9 +29,7 @@ export default function Home() {
               <div className="md:flex flex-row pb-4">
                 <div className="md:mr-2 rounded-md basis-1/1 md:basis-2/3 bg-gradient-to-r from-green-800 to-blue-900 p-4 md:p-6 mb-4 md:mb-0 flex items-center">
                   <p className="md:text-3xl text-2xl">
-                    Hi, I'm Jon 👋 I have over a decade of experience
-                    designing and delivering bespoke, user focussed digital
-                    products, grounded in clear rationale.
+                  Hi, I'm Jon. I have over a decade of experience researching, designing and delivering bespoke, user focussed digital products, grounded in clear rationale.
                   </p>
                 </div>
 
@@ -72,23 +70,18 @@ export default function Home() {
                   tabIndex="2"
                 >
                   <p className="pb-4 pt-2">
-                    I aim to understand users needs and pain points on any
-                    project as accurately as I can in order to design the best solution
-                    possible. I also aim to track design success in clear ways. 
+                  I’m an advocate of the design thinking process - empathise, define, ideate, prototype, and test to deliver the best solutions possible. I’ve followed this process to deliver designs to some of the worlds largest businesses in measurably successful ways. 
                   </p>
 
-                 <p className="pb-4 pt-2"> Whether that's enganging with customers directly by quantitative or qualatitive methods, or by working closely with internal stakeholders, I can gather design requirements and translate them into prototypes at any fidelity ready for feedback and quick iteration.</p>
                 </Collapsible>
                 <Collapsible
-                  trigger="MANAGING 'THE ART OF THE POSSIBLE'"
+                  trigger="MANAGING THE ART OF THE POSSIBLE"
                   transitionTime="150"
                   tabIndex="2"
                 >
-               <p className="pb-4 pt-2">I have experience designing and delivering solutions of all sizes, from small features to entire new products from scratch for some of the world's largest companies.</p>
-                  <p className="pb-4">
-                  I believe the most effective way to see through a design to smooth release is 
-                  to be embedded in both delivery and product teams. This keeps communication strong, allowing for quick reaction to any technical roadblocks and negotiation of the 'art of the possible' for a design to reach the best compromise for both users and business.
-                  </p>
+               <p className="pb-4 pt-2">
+               I believe the most effective way to see through a design to smooth release is to be embedded in both delivery and product teams. This keeps communication strong, allowing for quick reaction to any technical roadblocks and negotiation of the art of the possible for a design to reach the best compromise for both users and the business.
+                </p>
                 </Collapsible>
                 <Collapsible
                   trigger="UI DESIGN &amp; DESIGN SYSTEMS"
@@ -102,7 +95,7 @@ export default function Home() {
                   </p>
                   <p className="pb-4">
                     From simple elements like buttons, all the way to whole
-                    screens that can be arranged and scaled to any screen size, all whilst enganging with delivery teams to ensure smooth implementation.
+                    screens that can be arranged and scaled to any screen size, all whilst engaging with delivery teams to ensure smooth implementation.
                   </p>
                 </Collapsible>
 
@@ -119,17 +112,17 @@ export default function Home() {
               </div>
 
               <p className="bg-gradient-to-r from-red-900 to-pink-900 rounded-md p-4 md:p-6 mb-4 md:text-2xl text-xl">
-                Selected Projects
+                Selected Case Studies
               </p>
               <LinkBlock
-                destination="#"
+                destination="/keelvar"
                 a11yText="Navigate to Keelvar"
                 title="KEELVAR"
-                textColorClasses="from-purple-400 to-purple-600"
+                textColorClasses="from-k_purple-400 to-k_purple-600"
                 bgColorClasses="bg-gray-800"
                 num="01"
                 company="KEELVAR"
-                skill_1="Case study coming soon"
+                skill_1="Leading design across multiple products through high growth."
               />
               <LinkBlock
                 destination="/waerlinx"
@@ -139,7 +132,7 @@ export default function Home() {
                 bgColorClasses="bg-gray-800 wl"
                 num="02"
                 company="WAER Systems"
-                skill_1="Lead Product Designer"
+                skill_1="Redesigning a 20 year old application to be user first."
               />
 
               <LinkBlock
@@ -150,7 +143,7 @@ export default function Home() {
                 bgColorClasses="bg-gray-800 speedo"
                 num="03"
                 company="Pentland Brands"
-                skill_1="Lead UI Designer"
+                skill_1="Creating a design system from scratch for a global brand."
               />
 
               <LinkBlock
@@ -161,7 +154,7 @@ export default function Home() {
                 bgColorClasses="bg-gray-800 ri"
                 num="04"
                 company="RightIndem"
-                skill_1="UI/UX Design | Front End Development | Branding"
+                skill_1="Rethinking the insurace claim process."
               />
 
               <LinkBlock
@@ -172,7 +165,7 @@ export default function Home() {
                 bgColorClasses="bg-gray-800 bh"
                 num="05"
                 company="Pentland Brands"
-                skill_1="UI Design"
+                skill_1="Increasing conversations and sessions."
               />
 
               <LinkBlock
@@ -183,7 +176,7 @@ export default function Home() {
                 bgColorClasses="bg-gray-800 wl"
                 num="06"
                 company="WAER Systems"
-                skill_1="Lead Product Designer"
+                skill_1="Bespoke warehouse analytics"
               />
 
             </m.article>

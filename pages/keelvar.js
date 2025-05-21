@@ -11,7 +11,7 @@ import { fade } from "@/helpers/transitions";
 import { LazyMotion, domAnimation, m } from "framer-motion";
 import { NextSeo } from "next-seo";
 
-import KIMG_1 from "../src/img/keelvar/keelvar1.png";
+import KIMG_1 from "../src/img/keelvar/Keelvar1.png";
 import KIMG_2 from "../src/img/keelvar/keelvar2.png";
 import KIMG_3 from "../src/img/keelvar/keelvar3.png";
 import KIMG_5 from "../src/img/keelvar/keelvar5.png";

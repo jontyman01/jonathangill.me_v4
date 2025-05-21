@@ -1,7 +1,7 @@
 export default {
   defaultTitle: 'Jonathan Gill | Senior Product Designer',
   description: 'Portfolio of Jonathan Gill',
-  titleTemplate: '%s | Jonathan Gill | Senior Product Designer',
+  titleTemplate: '%s | Jonathan Gill | Product Design Lead',
   openGraph: {
     type: 'website',
     locale: 'en_GB',

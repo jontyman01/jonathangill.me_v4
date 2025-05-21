@@ -198,7 +198,7 @@ export default function berghaus() {
                 bgColorClasses="bg-gray-800 wl"
                 num="Next Project"
                 company="WAERb.i"
-                skill_1="Bespoke warehouse analytics"
+                skill_1="Bespoke warehouse analytics."
               />
 
             </m.div>

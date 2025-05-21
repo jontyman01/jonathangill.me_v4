@@ -105,7 +105,7 @@ export default function keelvar() {
                     </p>
 
                     <p className="pb-4">
-                      As an example, lets take rate management. In mid sized to large businesses, procurement teams have various methods of storing the agreed prices for contracts, in what is called a Rate Card - for instance, a contract for a shipping container of raw materials going from Southampton to Cork for the year. Initial customer interviews revealed that procurement teams were struggling with fragmented systems, labor-intensive manual processes, and inefficient rate tracking and reporting.
+                      As an example, lets take rate management. In mid sized to large businesses, procurement teams have various methods of storing the agreed prices for contracts, in what is called a Rate Card; for instance, a contract for a shipping container of raw materials going from Southampton to Cork for the year. Initial customer interviews revealed that procurement teams were struggling with fragmented systems, labor-intensive manual processes, and inefficient rate tracking and reporting.
                     </p>
 
                   </div>
@@ -147,7 +147,7 @@ export default function keelvar() {
 
               <div className="md:flex flex-row pb-8 bg-gray-800 rounded-md p-4 md:p-6 mb-10">
 
-                <p className="text-lg pb-4 leading-loose">After multiple rounds of iterations on prototypes, validating high level concepts with customers, a development team was assembled. I worked closely with engineers to ensure technical feasibility of designs. I also contributed to front-end QA, leveraging my technical background to test in-app designs before deployment. After launching the alpha version, I led think out loud user testing sessions with customers, internal stakeholders, and non-expert users, validating uncovering critical usability insights before launch. </p>
+                <p className="text-lg pb-4 leading-loose">After multiple rounds of iterations on prototypes, validating high level concepts with customers, a development team was assembled. I worked closely with engineers to ensure technical feasibility of designs. I also contributed to front-end QA, leveraging my technical background to test in-app designs before deployment. After launching the alpha version, I led think out loud user testing sessions with customers, internal stakeholders, and non-expert users, uncovering critical usability insights before launch. </p>
 
               </div>
 

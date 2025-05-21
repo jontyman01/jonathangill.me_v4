@@ -176,7 +176,7 @@ export default function Home() {
                 bgColorClasses="bg-gray-800 wl"
                 num="06"
                 company="WAER Systems"
-                skill_1="Bespoke warehouse analytics"
+                skill_1="Bespoke warehouse analytics."
               />
 
             </m.article>

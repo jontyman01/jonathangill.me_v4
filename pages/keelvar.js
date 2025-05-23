@@ -36,8 +36,8 @@ export default function keelvar() {
 
                  <div className="mb-8">
                     <Image
-                      src={KIMG_5}
-                      alt="Rate manager rates"
+                      src={KIMG_1}
+                      alt="Rate manager cards"
                       className="rounded-md"
                       placeholder="blur"
                     />
@@ -138,8 +138,8 @@ export default function keelvar() {
               </div>
               <div className="mb-8">
                     <Image
-                      src={KIMG_1}
-                      alt="Rate manager cards"
+                      src={KIMG_5}
+                      alt="Rate manager rates"
                       className="rounded-md"
                       placeholder="blur"
                     />

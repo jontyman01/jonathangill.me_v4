@@ -165,7 +165,7 @@ export default function Home() {
                 bgColorClasses="bg-gray-800 bh"
                 num="05"
                 company="Pentland Brands"
-                skill_1="Increasing conversations and sessions."
+                skill_1="Increasing conversions and sessions."
               />
 
               <LinkBlock

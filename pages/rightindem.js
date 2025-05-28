@@ -175,7 +175,7 @@ export default function Rightindem() {
                 bgColorClasses="bg-gray-800 bh"
                 num="Next Project"
                 company="Pentland Brands"
-                skill_1="Increasing conversations and sessions."
+                skill_1="Increasing conversions and sessions."
               />
 
             </m.div>

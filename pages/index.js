@@ -29,7 +29,7 @@ export default function Home() {
               <div className="md:flex flex-row pb-4">
                 <div className="md:mr-2 rounded-md basis-1/1 md:basis-2/3 bg-gradient-to-r from-green-800 to-blue-900 p-4 md:p-6 mb-4 md:mb-0 flex items-center">
                   <p className="md:text-3xl text-2xl">
-                  Hi, I'm Jon. I have over a decade of experience researching, designing and delivering bespoke, user focussed digital products, grounded in clear rationale.
+                    Hi, I'm Jon. I have over a decade of experience researching, designing and delivering human centred products, grounded in clear business rationale.
                   </p>
                 </div>
 

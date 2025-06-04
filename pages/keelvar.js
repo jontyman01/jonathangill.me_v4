@@ -55,7 +55,7 @@ export default function keelvar() {
 
                     <p>
                       <i>
-                        Led design of a{" "}
+                        Leading design of a{" "}
                         <a
                           href="https://www.keelvar.com/rate-manager"
                           target="_blank"
@@ -64,7 +64,7 @@ export default function keelvar() {
                         >
                           rate management product
                         </a>{" "}
-                        product from scratch to launch, guided by user research.
+                        product from scratch to launch and beyond, guided by user research.
                       </i>
                     </p>
 
@@ -82,7 +82,7 @@ export default function keelvar() {
                         >
                           sourcing automation product
                         </a>{" "}
-                        into high growth and the era of AI agents.
+                        into 10x monthly usage and the era of AI agents.
                       </i>
                     </p>
 
@@ -90,26 +90,35 @@ export default function keelvar() {
 
                     <p>
                       <i>
-                        Lead curator of Keelvars design system. Mentoring Junior and mid level designers to promotion.
+                        Lead curator of Keelvars design system. Mentoring junior and mid level designers to promotion.
                       </i>
                     </p>
                   </div>
 
                   <div className="md:ml-2 rounded-md basis-1/1 md:basis-3/4 md:p-6 leading-loose">
                     <p className="text-lg font-bold pb-4">
-                      <a href="https://keelvar.com/" target="_blank" className="hover:decoration-purple-400" rel="noopener noreferrer">Keelvar</a> drives better procurement outcomes for Coca-cola, Siemens, Samsung and many others, by simplifying the complex and automating the simple across sourcing needs.
+                      <a href="https://keelvar.com/" target="_blank" className="hover:decoration-purple-400" rel="noopener noreferrer">Keelvar</a> drives better procurement outcomes for Coca-Cola, Siemens, Samsung and many others, by simplifying the complex and automating the simple across sourcing needs.
                     </p>
 
                     <p className="pb-4">
-                      For the design team at Keelvar, simplifying the complex defines our priority on any project. While this is an essential aim for any product team, the tasks that procurement professionals face on a daily basis can be highly specialized, labour intensive, and can require a high cognitive load. By gaining a deep knowledge in the product team of our customers needs and pain points, and by using the design thinking process to Empathize, Define, Ideate, Prototype and Test, we aim to simplify the complex in measurable ways.
-                    </p>
-
-                    <p className="pb-4">
-                      As an example, lets take rate management. In mid sized to large businesses, procurement teams have various methods of storing the agreed prices for contracts, in what is called a Rate Card; for instance, a contract for a shipping container of raw materials going from Southampton to Cork for the year. Initial customer interviews revealed that procurement teams were struggling with fragmented systems, labor-intensive manual processes, and inefficient rate tracking and reporting.
+                      For the design team at Keelvar, simplifying the complex defines our priority on any project. While this is an essential aim for any product team, the tasks that procurement professionals face on a daily basis can be highly specialised, labour intensive, and can require a high cognitive load. By gaining a deep knowledge in the product team of our customers needs and pain points, and by using the design thinking process to Empathize, Define, Ideate, Prototype and Test, we aim to simplify the complex in measurable ways. For example, during my time leading design for <a
+                          href="https://www.keelvar.com/sourcing-automation"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="hover:decoration-purple-400"
+                        >
+                         Autonomous Sourcing
+                        </a>
+                        , <strong>monthly event usage has increased by nearly 10x -</strong> whilst at the same time, the product receives only <strong>one support ticket for every ten</strong> app-wide.
                     </p>
 
                   </div>
                 </div>
+              </div>
+
+                <div className="md:flex flex-row pb-8 bg-gray-800 rounded-md p-4 md:p-6 mb-10 leading-loose">
+
+                <p className="pb-4 text-lg leading-loose">As another example, lets take rate management. In mid sized to large businesses, procurement teams have various methods of storing the agreed prices for contracts, in what is called a Rate Card; for instance, a contract for a shipping container of raw materials going from Southampton to Cork for the year. Initial customer interviews revealed that procurement teams were struggling with fragmented systems, labor-intensive manual processes, and inefficient rate tracking and reporting.</p>
               </div>
 
 

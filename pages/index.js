@@ -37,7 +37,7 @@ export default function Home() {
                   <p className="text-gray-400 pb-2">I've designed solutions for</p>
                   <p className="text-3xl font-bold uppercase">
                   <span className="text-transparent bg-clip-text bg-gradient-to-r inline-block from-red-500 to-orange-800 pr-2">
-                      Coca-cola
+                      Coca-Cola
                     </span>
                     <span className="text-transparent bg-clip-text bg-gradient-to-r inline-block from-teal-500 to-teal-800 pr-2">
                       Siemens
@@ -70,7 +70,15 @@ export default function Home() {
                   tabIndex="2"
                 >
                   <p className="pb-4 pt-2">
-                  I’m an advocate of the design thinking process - empathise, define, ideate, prototype, and test to deliver the best solutions possible. I’ve followed this process to deliver designs to some of the worlds largest businesses in measurably successful ways. 
+                  I’m an advocate of the design thinking process - empathise, define, ideate, prototype, and test to deliver the best solutions possible. I’ve followed this process to deliver designs to some of the worlds largest businesses in measurably successful ways. For example, during my time leading design for <a
+                          href="https://www.keelvar.com/sourcing-automation"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="hover:decoration-purple-400"
+                        >
+                         Autonomous Sourcing
+                        </a>{" "}
+                         at Keelvar, <strong>monthly event usage has increased by nearly 10x -</strong> whilst at the same time, the product receives only <strong>one support ticket for every ten</strong> app-wide.
                   </p>
 
                 </Collapsible>

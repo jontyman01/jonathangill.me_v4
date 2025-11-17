@@ -171,16 +171,6 @@ export default function speedo() {
                 This work was created at &amp; is property of Pentland Brands.
               </p>
 
-              <LinkBlock
-                destination="/rightindem"
-                a11yText="Navigate to Rightindem"
-                title="RightIndem"
-                textColorClasses="from-green-500 to-emerald-800"
-                bgColorClasses="bg-gray-800 mt-4 ri"
-                num="Next Project"
-                company="Right Indemnity"
-                skill_1="Rethinking the insurace claim process."
-              />
             </m.div>
           </Container>
         </m.div>

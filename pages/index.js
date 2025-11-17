@@ -22,12 +22,12 @@ export default function Home() {
           initial="initial"
           animate="enter"
           exit="exit"
-          className="mb-12 md:mb-16 xl:mb-8 md:pt-2"
+          className="mb-12 md:mb-16 xl:mb-8"
         >
           <Container>
             <m.article variants={fade}>
-              <div className="md:flex flex-row pb-4">
-                <div className="md:mr-2 rounded-md basis-1/1 md:basis-2/3 bg-gradient-to-r from-green-800 to-blue-900 p-4 md:p-6 mb-4 md:mb-0 flex items-center">
+              <div className="md:flex flex-row pb-8">
+                <div className="md:mr-6 rounded-md basis-1/1 md:basis-2/3 bg-gradient-to-r from-green-800 to-blue-900 p-4 md:p-6 mb-8 md:mb-0 flex items-center">
                   <p className="md:text-3xl text-2xl">
                     Hi, I'm Jon. I have over a decade of experience researching, designing and delivering human centred products, grounded in clear business rationale.
                   </p>
@@ -58,11 +58,11 @@ export default function Home() {
                       SIG
                     </span>
                     </p>
-                    <p className="text-gray-400 pt-2">+ Many More</p>
+                    <p className="text-gray-400 pt-2">+ Many more</p>
                 </div>
               </div>
 
-              <div className="mb-4 p-4 md:p-6 rounded-md bg-gradient-to-r from-gray-800 to-purple-900">
+              <div className="mb-8 p-4 md:p-6 rounded-md bg-gradient-to-r from-gray-800 to-purple-900">
                 <p className="text-gray-400 pb-4">Specialising In</p>
                 <Collapsible
                   trigger="DISCOVERY & IDEATION"
@@ -119,9 +119,6 @@ export default function Home() {
                 </Collapsible>
               </div>
 
-              <p className="bg-gradient-to-r from-red-900 to-pink-900 rounded-md p-4 md:p-6 mb-4 md:text-2xl text-xl">
-                Selected Case Studies
-              </p>
               <LinkBlock
                 destination="/keelvar"
                 a11yText="Navigate to Keelvar"
@@ -152,39 +149,6 @@ export default function Home() {
                 num="03"
                 company="Pentland Brands"
                 skill_1="Creating a design system from scratch for a global brand."
-              />
-
-              <LinkBlock
-                destination="/rightindem"
-                a11yText="Navigate to RightIndem"
-                title="RIGHTINDEM : INSURANCE CLAIMS PLATFORM"
-                textColorClasses="from-green-500 to-emerald-800"
-                bgColorClasses="bg-gray-800 ri"
-                num="04"
-                company="RightIndem"
-                skill_1="Rethinking the insurace claim process."
-              />
-
-              <LinkBlock
-                destination="/berghaus"
-                a11yText="Navigate to Berghaus"
-                title="BERGHAUS.COM HOMEPAGE"
-                textColorClasses="from-blue-600 to-red-400"
-                bgColorClasses="bg-gray-800 bh"
-                num="05"
-                company="Pentland Brands"
-                skill_1="Increasing conversions and sessions."
-              />
-
-              <LinkBlock
-                destination="/waerbi"
-                a11yText="Navigate to waerb.i"
-                title="WAERb.i"
-                textColorClasses="from-yellow-500 to-yellow-800"
-                bgColorClasses="bg-gray-800 wl"
-                num="06"
-                company="WAER Systems"
-                skill_1="Bespoke warehouse analytics."
               />
 
             </m.article>

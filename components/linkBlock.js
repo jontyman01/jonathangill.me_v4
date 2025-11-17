@@ -14,7 +14,7 @@ export default function LinkBlock({
     <Link href={destination}>
       <a
         aria-label={a11yText}
-        className={`block mb-4 p-4 md:p-6 rounded-md linkBlock relative ${bgColorClasses}`}
+        className={`block mb-8 p-4 md:p-6 rounded-md linkBlock relative ${bgColorClasses}`}
       >
         <p className="text-gray-400 pb-0 linedText relative pr-16">
           <span className="bg-gray-800 pr-4">{num}</span>

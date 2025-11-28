@@ -36,7 +36,7 @@ export default function Home() {
                 <div className="md:ml-2 rounded-md basis-1/1 md:basis-1/3 bg-gradient-to-r from-slate-800 to-slate-800 p-4 md:p-6">
                   <p className="text-gray-400 pb-2">I've designed solutions for</p>
                   <p className="text-3xl font-bold uppercase">
-                  <span className="text-transparent bg-clip-text bg-gradient-to-r inline-block from-red-500 to-orange-800 pr-2">
+                    <span className="text-transparent bg-clip-text bg-gradient-to-r inline-block from-red-500 to-orange-800 pr-2">
                       Coca-Cola
                     </span>
                     <span className="text-transparent bg-clip-text bg-gradient-to-r inline-block from-teal-500 to-teal-800 pr-2">
@@ -57,8 +57,8 @@ export default function Home() {
                     <span className="text-transparent bg-clip-text bg-gradient-to-r inline-block from-red-500 to-red-800 pr-2">
                       SIG
                     </span>
-                    </p>
-                    <p className="text-gray-400 pt-2">+ Many more</p>
+                  </p>
+                  <p className="text-gray-400 pt-2">+ Many more</p>
                 </div>
               </div>
 
@@ -70,15 +70,15 @@ export default function Home() {
                   tabIndex="2"
                 >
                   <p className="pb-4 pt-2">
-                  I’m an advocate of the design thinking process - empathise, define, ideate, prototype, and test to deliver the best solutions possible. I’ve followed this process to deliver designs to some of the worlds largest businesses in measurably successful ways. For example, during my time leading design for <a
-                          href="https://www.keelvar.com/sourcing-automation"
-                          target="_blank"
-                          rel="noopener noreferrer"
-                          className="hover:decoration-purple-400"
-                        >
-                         Autonomous Sourcing
-                        </a>{" "}
-                         at Keelvar, <strong>monthly event usage has increased by nearly 10x -</strong> whilst at the same time, the product receives only <strong>one support ticket for every ten</strong> app-wide.
+                    I’m an advocate of the design thinking process - empathise, define, ideate, prototype, and test to deliver the best solutions possible. I’ve followed this process to deliver designs to some of the worlds largest businesses in measurably successful ways. For example, during my time leading design for <a
+                      href="https://www.keelvar.com/sourcing-automation"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="hover:decoration-purple-400"
+                    >
+                      Autonomous Sourcing
+                    </a>{" "}
+                    at Keelvar, <strong>monthly event usage has increased by nearly 10x -</strong> whilst at the same time, the product receives only <strong>one support ticket for every ten</strong> app-wide.
                   </p>
 
                 </Collapsible>
@@ -87,9 +87,9 @@ export default function Home() {
                   transitionTime="150"
                   tabIndex="2"
                 >
-               <p className="pb-4 pt-2">
-               I believe the most effective way to see through a design to smooth release is to be embedded in both delivery and product teams. This keeps communication strong, allowing for quick reaction to any technical roadblocks and negotiation of the art of the possible for a design to reach the best compromise for both users and the business.
-                </p>
+                  <p className="pb-4 pt-2">
+                    I believe the most effective way to see a design to smooth release, is through strong and frequent stakeholder communication, allowing for quick reaction to any technical roadblocks and negotiation of the art of the possible. This allows a design to reach the best outcome for both users and the business.
+                  </p>
                 </Collapsible>
                 <Collapsible
                   trigger="UI DESIGN &amp; DESIGN SYSTEMS"

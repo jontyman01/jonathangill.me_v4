@@ -33,12 +33,15 @@ export default function keelvar() {
         >
           <Container>
             <m.div variants={fade}>
-              <Image
+             {/*  <Image
                 src={KIMG_1}
                 alt="Rate manager cards"
                 placeholder="blur"
                 className="rounded-xl"
-              />
+              /> */}
+              <div style={{ aspectRatio:'16/9' }} className="rounded-xl overflow-hidden" >
+                <iframe title="vimeo-player" src="https://player.vimeo.com/video/1058941973?h=e85d9c3e7c?transparent=true" style={{ backgroundColor:'black' }} width="100%" height="100%" frameborder="0" colors="000000,00adef,ffffff,000000" referrerpolicy="strict-origin-when-cross-origin" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share"   allowfullscreen></iframe>
+              </div>
 
               <div className="bg-gray-800 rounded-xl p-4 md:p-6 my-8">
 

@@ -45,7 +45,6 @@ export default function speedo() {
               </div>
 
               <div className="bg-gray-800 rounded-md p-4 md:p-6 mb-8">
-                <hr className="h-px border-b border-gray-500 bg-gray-500 mb-4" />
 
                 <div className="md:flex flex-row">
                   <div className="md:pr-2 rounded-md basis-1/1 md:basis-1/4 bg-gradient-to-r mb-4 md:mb-0 font-light">
@@ -81,7 +80,7 @@ export default function speedo() {
                     <hr className="h-px border-b border-gray-500 bg-gray-500 mb-4 mt-4" />
                   </div>
 
-                  <div className="md:ml-2 rounded-md basis-1/1 md:basis-3/4 md:p-6">
+                  <div className="md:ml-2 rounded-md basis-1/1 md:basis-3/4 md:p-6 text-lg leading-loose">
                     <p className="text-lg font-bold pb-4">
                       As a product designer on the e-commerce team of Pentland
                       Brands, I was given the brief of leading the initial UI
@@ -90,12 +89,11 @@ export default function speedo() {
                     </p>
 
                     <p className="pb-4">
-                      The identity was shaped by regular stakeholder meetings
-                      and consumer research. Ultimately the main goals of the
-                      brand refresh that were discovered and established were -
+                      Based on research findings, the main goals of the
+                      brand refresh were -
                     </p>
 
-                    <ul className="pb-4 pl-4 list-disc">
+                    <ul className="pl-4 list-disc">
                       <li>
                         To reflect the status of Speedo as a premium brand.
                       </li>
@@ -109,15 +107,18 @@ export default function speedo() {
                       </li>
                     </ul>
 
-                    <p>
-                      Therefore a contemporary look to the UI that would appeal
-                      to our target markets, whilst taking inspiration from
-                      competitors sites such as asos, nike, pro swimwear,
-                      patagonia etc. was chosen.
-                    </p>
                   </div>
                 </div>
               </div>
+
+
+              <p className="bg-gray-800 rounded-md p-4 md:p-6 my-8 text-lg leading-loose">
+                Therefore a contemporary look to the UI that would appeal
+                to our target markets, whilst taking inspiration from
+                competitors sites such as asos, nike, pro swimwear,
+                patagonia etc. was chosen.
+              </p>
+
 
               <QuoteBlock
                 bgColorClasses="quoteBlockbg--sp"
@@ -127,14 +128,14 @@ export default function speedo() {
               <Image
                 src={SpeedoAtomic1}
                 alt="Picture of Speedo Design System 1"
-                className="rounded-md"
+                className=""
                 placeholder="blur"
               />
 
               <Image
                 src={SpeedoAtomic2}
                 alt="Picture of Speedo Design System 2"
-                className="rounded-md"
+                className=""
                 placeholder="blur"
               />
 
@@ -143,7 +144,7 @@ export default function speedo() {
                   <Image
                     src={SpeedoBlog}
                     alt="Picture of Speedo Blog Component"
-                    className="rounded-md"
+                    className=""
                     placeholder="blur"
                   />
                 </div>
@@ -154,7 +155,7 @@ export default function speedo() {
                   <Image
                     src={SpeedoCarousel}
                     alt="Picture of Speedo Carousel Component"
-                    className="rounded-md"
+                    className=""
                     placeholder="blur"
                   />
                 </div>
@@ -163,11 +164,11 @@ export default function speedo() {
               <Image
                 src={SpeedoLaptop}
                 alt="Picture of Speedo Homepage"
-                className="rounded-md"
+                className=""
                 placeholder="blur"
               />
 
-              <p className="bg-gray-800 rounded-md p-4 md:p-6 my-8 italic">
+              <p className="bg-gray-800 rounded-md p-4 md:p-6 my-8 italic text-lg leading-loose">
                 This work was created at &amp; is property of Pentland Brands.
               </p>
 

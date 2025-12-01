@@ -88,7 +88,7 @@ export default function waerlinx() {
                     </p>
                   </div>
 
-                  <div className="md:ml-2 rounded-md basis-1/1 md:basis-3/4 md:p-6">
+                  <div className="md:ml-2 rounded-md basis-1/1 md:basis-3/4 md:p-6 text-lg leading-loose">
                     <p className="text-lg font-bold pb-4">
                       <a href="https://waersystems.com/" target="_blank" className="hover:decoration-yellow-400" rel="noopener noreferrer">WAER Systems</a> is the creator of WAERLinx, a WMS (warehouse
                       management system) for businesses that run NetSuite as
@@ -109,8 +109,10 @@ export default function waerlinx() {
                       which were then translated into wireframes. These were
                       then given to customers for feedback and iteration.
                     </p>
-
-                    <p>
+                  </div>
+                </div>
+              </div>
+              <p className="bg-gray-800 rounded-md  text-lg leading-loose p-4 md:p-6 mb-8">
                       From this, a Design System was established and a full UI
                       design of screens were created. This was then picked up by
                       a front-end developer and built in React and {" "}
@@ -124,17 +126,14 @@ export default function waerlinx() {
                       </a>, where I directed the UI
                       components to be built in <a href="https://storybook.js.org/" target="_blank" className="hover:decoration-yellow-400" rel="noopener noreferrer">Storybook</a> for re-uability and
                       testing of components in multiple screen situations. So far customer feedback has been positive and encouraging.
-                    </p>
-                  </div>
-                </div>
-              </div>
+                    </p>              
 
               <div className="md:flex flex-row pb-8 justify-center text-center pt-2">
                 <div className="md:basis-1/2 md:pr-1">
                   <Image
                     src={wlPersonnas}
                     alt="Picture of Inventory Move Wireframes"
-                    className="rounded-md"
+                    className=""
                     placeholder="blur"
                   />
                 </div>
@@ -144,7 +143,7 @@ export default function waerlinx() {
               <Image
                 src={wlwireframes}
                 alt="Picture of Inventory Move Wireframes"
-                className="rounded-md"
+                className=""
                 placeholder="blur"
               />
               <QuoteBlock
@@ -155,38 +154,38 @@ export default function waerlinx() {
               <Image
                 src={wlmultiUI}
                 alt="Picture of Inventory Move UI"
-                className="rounded-md pb-8"
+                className="!mb-8"
                 placeholder="blur"
               />
 
               <Image
                 src={wlmoveimg}
                 alt="Picture of Inventory Move UI on a Laptop"
-                className="rounded-md"
+                className="!mb-8"
                 placeholder="blur"
               />
 
-              <div className="md:flex flex-row pb-8">
+              <div className="md:flex flex-row mb-8">
                 <div className="md:basis-1/2 md:pr-1">
                   <Image
                     src={wlbeforeafter1}
                     alt="Picture of Inventory Move UI before and after"
-                    className="rounded-md"
+                    className="md:!mr-4"
                     placeholder="blur"
                   />
                 </div>
 
-                <div className=" md:basis-1/2 md:pl-1">
+                <div className="md:basis-1/2 md:pl-1">
                   <Image
                     src={wlbeforeafter2}
                     alt="Picture of Inventory Move UI before and after"
-                    className="rounded-md"
+                    className="md:!ml-4"
                     placeholder="blur"
                   />
                 </div>
               </div>
 
-              <p className="bg-gray-800 rounded-md p-4 md:p-6 mb-8 italic">This work was created at &amp; is property of WAER Systems.</p>
+              <p className="bg-gray-800 rounded-md p-4 md:p-6 mb-8 italic text-lg leading-loose">This work was created at &amp; is property of WAER Systems.</p>
 
 
               <LinkBlock

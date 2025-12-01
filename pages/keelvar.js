@@ -29,25 +29,22 @@ export default function keelvar() {
           initial="initial"
           animate="enter"
           exit="exit"
-          className="mb-12 md:mb-16 xl:mb-8 md:pt-2"
+          className="mb-12 md:mb-16 xl:mb-8"
         >
           <Container>
             <m.div variants={fade}>
+              <Image
+                src={KIMG_1}
+                alt="Rate manager cards"
+                placeholder="blur"
+                className="rounded-md"
+              />
 
-                 <div className="mb-8">
-                    <Image
-                      src={KIMG_1}
-                      alt="Rate manager cards"
-                      className="rounded-md"
-                      placeholder="blur"
-                    />
-                  </div>
-
-              <div className="bg-gray-800 rounded-md p-4 md:p-6 mb-8">
+              <div className="bg-gray-800 rounded-md p-4 md:p-6 my-8">
 
                 <div className="md:flex flex-row">
-                  <div className="md:pr-2 rounded-md basis-1/1 md:basis-1/4 bg-gradient-to-r mb-4 md:mb-0 font-light">
-                    <h1 className="font-bold text-2xl md:text-3xl xl:text-4xl mb-4 text-transparent bg-clip-text bg-gradient-to-r inline-block from-k_purple-400 to-k_purple-600">
+                  <div className="md:pr-2 rounded-md basis-1/1 md:basis-1/4 bg-gradient-to-r mb-4 md:mb-4 font-light">
+                    <h1 className="font-bold text-xl md:text-3xl xl:text-4xl mb-4 text-transparent bg-clip-text bg-gradient-to-r inline-block from-k_purple-400 to-k_purple-600">
                       Keelvar
                     </h1>
 
@@ -96,29 +93,29 @@ export default function keelvar() {
                   </div>
 
                   <div className="md:ml-2 rounded-md basis-1/1 md:basis-3/4 md:p-6 leading-loose">
-                    <p className="text-lg font-bold pb-4">
+                    <p className="text-lg font-bold pb-4 leading-loose">
                       <a href="https://keelvar.com/" target="_blank" className="hover:decoration-purple-400" rel="noopener noreferrer">Keelvar</a> drives better procurement outcomes for Coca-Cola, Siemens, Samsung and many others, by simplifying the complex and automating the simple across sourcing needs.
                     </p>
 
-                    <p className="pb-4">
-                      For the design team at Keelvar, simplifying the complex defines our priority on any project. While this is an essential aim for any product team, the tasks that procurement professionals face on a daily basis can be highly specialised, labour intensive, and can require a high cognitive load. By gaining a deep knowledge in the product team of our customers needs and pain points, and by using the design thinking process to Empathize, Define, Ideate, Prototype and Test, we aim to simplify the complex in measurable ways. For example, during my time leading design for <a
-                          href="https://www.keelvar.com/sourcing-automation"
-                          target="_blank"
-                          rel="noopener noreferrer"
-                          className="hover:decoration-purple-400"
-                        >
-                         Autonomous Sourcing
-                        </a>
-                        , <strong>monthly event usage has increased by nearly 10x -</strong> whilst at the same time, the product receives only <strong>one support ticket for every ten</strong> app-wide.
+                    <p className="text-lg leading-loose">
+                      For the design team at Keelvar, simplifying the complex defines our priority on any project. While this is an essential aim for any product team, the tasks that procurement professionals face on a daily basis can be highly specialised, labour intensive, and can require a high cognitive load. By gaining a deep knowledge in the product team of our customers needs and pain points, and by using the design thinking process to empathize, define, ideate, prototype and test, we aim to simplify the complex in measurable ways. For example, during my time leading design for <a
+                        href="https://www.keelvar.com/sourcing-automation"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="hover:decoration-purple-400"
+                      >
+                        Autonomous Sourcing
+                      </a>
+                      , <strong>monthly event usage has increased by nearly 10x -</strong> whilst at the same time, the product receives only <strong>one support ticket for every ten</strong> app-wide.
                     </p>
 
                   </div>
                 </div>
               </div>
 
-                <div className="md:flex flex-row pb-8 bg-gray-800 rounded-md p-4 md:p-6 mb-10 leading-loose">
+              <div className="md:flex flex-row bg-gray-800 rounded-md p-4 md:p-6 mb-8 leading-loose">
 
-                <p className="pb-4 text-lg leading-loose">As another example, lets take rate management. In mid sized to large businesses, procurement teams have various methods of storing the agreed prices for contracts, in what is called a Rate Card; for instance, a contract for a shipping container of raw materials going from Southampton to Cork for the year. Initial customer interviews revealed that procurement teams were struggling with fragmented systems, labor-intensive manual processes, and inefficient rate tracking and reporting.</p>
+                <p className="text-lg leading-loose">As another example, lets take rate management. In mid sized to large businesses, procurement teams have various methods of storing the agreed prices for contracts, in what is called a Rate Card; for instance, a contract for a shipping container of raw materials going from Southampton to Cork for the year. Initial customer interviews revealed that procurement teams were struggling with fragmented systems, labor-intensive manual processes, and inefficient rate tracking and reporting.</p>
               </div>
 
 
@@ -130,52 +127,49 @@ export default function keelvar() {
               <Image
                 src={KIMG_2}
                 alt="lo-fi rate manager wireframe"
-                className="rounded-md pb-8"
+                className="!pb-8"
                 placeholder="blur"
               />
 
               <Image
                 src={KIMG_3}
                 alt="lo-fi rate manager wireframe"
-                className="rounded-md pb-8"
+                className=" !pb-8"
                 placeholder="blur"
               />
 
-              <div className="md:flex flex-row pb-8 bg-gray-800 rounded-md p-4 md:p-6 mb-10 leading-loose">
+              <div className="md:flex flex-row bg-gray-800 rounded-md p-4 md:p-6 mb-8 leading-loose">
 
-                <p className="pb-4 text-lg leading-loose">I began by exploring low-fidelity concepts, centering the design around a familiar tabular interface inspired by Excel, as this was the most familiar interface for our users. However, we aimed to go beyond Excel by incorporating powerful features like advanced filtering to facilitate managing vast rate cards - some with up to 100,000 rates.</p>
+                <p className="text-lg leading-loose">I began by exploring low-fidelity concepts, centering the design around a familiar tabular interface inspired by Excel, as this was the most familiar interface for our users. However, we aimed to go beyond Excel by incorporating powerful features like advanced filtering to facilitate managing vast rate cards - some with up to 100,000 rates.</p>
               </div>
-              <div className="mb-8">
-                    <Image
-                      src={KIMG_5}
-                      alt="Rate manager rates"
-                      className="rounded-md"
-                      placeholder="blur"
-                    />
-                  </div>
+                <Image
+                  src={KIMG_5}
+                  alt="Rate manager rates"
+                  className="!pb-8"
+                  placeholder="blur"
+                />
 
-              <div className="md:flex flex-row pb-8 bg-gray-800 rounded-md p-4 md:p-6 mb-10">
+              <div className="md:flex flex-row bg-gray-800 rounded-md p-4 md:p-6 mb-8">
 
-                <p className="text-lg pb-4 leading-loose">After multiple rounds of iterations on prototypes, validating high level concepts with customers, a development team was assembled. I worked closely with engineers to ensure technical feasibility of designs. I also contributed to front-end QA, leveraging my technical background to test in-app designs before deployment. After launching the alpha version, I led think out loud user testing sessions with customers, internal stakeholders, and non-expert users, uncovering critical usability insights before launch. </p>
+                <p className="text-lg leading-loose">After multiple rounds of iterations on prototypes, validating high level concepts with customers, a development team was assembled. I worked closely with engineers to ensure technical feasibility of designs. I also contributed to front-end QA, leveraging my technical background to test in-app designs before deployment. After launching the alpha version, I led think out loud user testing sessions with customers, internal stakeholders, and non-expert users, uncovering critical usability insights before launch. </p>
 
               </div>
 
-               <div className="mb-8">
-                    <Image
-                      src={KIMG_6}
-                      alt="Rate manager cards"
-                      className="rounded-md"
-                      placeholder="blur"
-                    />
-                  </div>
+              <Image
+                src={KIMG_6}
+                alt="Rate manager cards"
+                className="!pb-8"
+                placeholder="blur"
+              />
 
-              <div className="md:flex flex-row pb-8 bg-gray-800 rounded-md p-4 md:p-6 mb-10 ">
+              <div className="md:flex flex-row bg-gray-800 rounded-md p-4 md:p-6 mb-8 ">
 
-                <p className="pb-4 text-lg leading-loose">The final release has since gained paying customers and strong usability scores. Now, we're extending Rate Manager&apos;s capabilities, integrating it into a larger solution where AI agents autonomously negotiate and store rates—a solution I&apos;m currently leading design on as part of the Autonomous sourcing product.</p>
+                <p className="text-lg leading-loose">A year after release, Rate Manager now integrates seemlessly into exsisting workflows to become the single point of truth for a large portion of Keelvar users. Plus, it's integrated into a larger solution, where AI agents autonomously negotiate and store rates on behalf of customers.</p>
+                </div>
 
-              </div>
 
-              <p className="bg-gray-800 rounded-md p-4 md:p-6 mb-8 italic">This work was created at &amp; is property of Keelvar.</p>
+
+              <p className="bg-gray-800 rounded-md p-4 md:p-6 mb-8 italic text-lg leading-loose">This work was created at &amp; is property of Keelvar.</p>
 
 
               <LinkBlock

@@ -36,17 +36,17 @@ export default function waerbi() {
                 <Image
                   src={wbiHeader}
                   alt="Picture of waerbi"
-                  className="rounded-md"
+                  className="rounded-xl"
                   layout="responsive"
                   placeholder="blur"
                 />
               </div>
 
-              <div className="bg-gray-800 rounded-md p-4 md:p-6 mb-8">
+              <div className="bg-gray-800 rounded-xl p-4 md:p-6 mb-8">
                 <hr className="h-px border-b border-gray-500 bg-gray-500 mb-4" />
 
                 <div className="md:flex flex-row">
-                  <div className="md:pr-2 rounded-md basis-1/1 md:basis-1/4 bg-gradient-to-r mb-4 md:mb-0 font-light">
+                  <div className="md:pr-2 rounded-xl basis-1/1 md:basis-1/4 bg-gradient-to-r mb-4 md:mb-0 font-light">
                     <h1 className="font-bold text-2xl md:text-3xl xl:text-4xl mb-4 text-transparent bg-clip-text bg-gradient-to-r from-yellow-400 to-yellow-500 inline-block">
                       WAERb.i
                     </h1>
@@ -75,7 +75,7 @@ export default function waerbi() {
                     </p>
                   </div>
 
-                  <div className="md:ml-2 rounded-md basis-1/1 md:basis-3/4 md:p-6">
+                  <div className="md:ml-2 rounded-xl basis-1/1 md:basis-3/4 md:p-6">
                     <p className="text-lg font-bold pb-4">
                       WAERb.i is a business intelligence tool created to extract
                       analytical data from WAERlinx, its parent Warehouse
@@ -115,7 +115,7 @@ export default function waerbi() {
               <Image
                 src={wbimockup}
                 alt="Picture of waerbi"
-                className="rounded-md"
+                className="rounded-xl"
                 layout="responsive"
                 placeholder="blur"
               />
@@ -130,7 +130,7 @@ export default function waerbi() {
                   <Image
                     src={wbiDaily}
                     alt="Picture of waerbi"
-                    className="rounded-md"
+                    className="rounded-xl"
                     layout="responsive"
                     placeholder="blur"
                   />
@@ -140,14 +140,14 @@ export default function waerbi() {
                   <Image
                     src={wbiBrand}
                     alt="Picture of waerbi"
-                    className="rounded-md"
+                    className="rounded-xl"
                     layout="responsive"
                     placeholder="blur"
                   />
                 </div>
               </div>
 
-              <p className="bg-gray-800 rounded-md p-4 md:p-6 my-8 italic">
+              <p className="bg-gray-800 rounded-xl p-4 md:p-6 my-8 italic">
                 This work was created at &amp; is property of WAER Systems.
               </p>
 

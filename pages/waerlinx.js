@@ -39,16 +39,16 @@ export default function waerlinx() {
                 <Image
                   src={wlHeader}
                   alt="Picture of WAERlinx in a Warehouse"
-                  className="rounded-md"
+                  className="rounded-xl"
                   placeholder="blur"
                 />
               </div>
 
-              <div className="bg-gray-800 rounded-md p-4 md:p-6 mb-8">
+              <div className="bg-gray-800 rounded-xl p-4 md:p-6 mb-8">
 
 
                 <div className="md:flex flex-row">
-                  <div className="md:pr-2 rounded-md basis-1/1 md:basis-1/4 bg-gradient-to-r mb-4 md:mb-0 font-light">
+                  <div className="md:pr-2 rounded-xl basis-1/1 md:basis-1/4 bg-gradient-to-r mb-4 md:mb-0 font-light">
                     <h1 className="font-bold text-2xl md:text-3xl xl:text-4xl mb-4 text-transparent bg-clip-text bg-gradient-to-r inline-block from-yellow-400 to-yellow-500">
                       WAERlinx
                     </h1>
@@ -88,7 +88,7 @@ export default function waerlinx() {
                     </p>
                   </div>
 
-                  <div className="md:ml-2 rounded-md basis-1/1 md:basis-3/4 md:p-6 text-lg leading-loose">
+                  <div className="md:ml-2 rounded-xl basis-1/1 md:basis-3/4 md:p-6 text-lg leading-loose">
                     <p className="text-lg font-bold pb-4">
                       <a href="https://waersystems.com/" target="_blank" className="hover:decoration-yellow-400" rel="noopener noreferrer">WAER Systems</a> is the creator of WAERLinx, a WMS (warehouse
                       management system) for businesses that run NetSuite as
@@ -112,7 +112,7 @@ export default function waerlinx() {
                   </div>
                 </div>
               </div>
-              <p className="bg-gray-800 rounded-md  text-lg leading-loose p-4 md:p-6 mb-8">
+              <p className="bg-gray-800 rounded-xl  text-lg leading-loose p-4 md:p-6 mb-8">
                       From this, a Design System was established and a full UI
                       design of screens were created. This was then picked up by
                       a front-end developer and built in React and {" "}
@@ -133,7 +133,7 @@ export default function waerlinx() {
                   <Image
                     src={wlPersonnas}
                     alt="Picture of Inventory Move Wireframes"
-                    className=""
+                    className="rounded-xl"
                     placeholder="blur"
                   />
                 </div>
@@ -143,7 +143,7 @@ export default function waerlinx() {
               <Image
                 src={wlwireframes}
                 alt="Picture of Inventory Move Wireframes"
-                className=""
+                className="rounded-xl"
                 placeholder="blur"
               />
               <QuoteBlock
@@ -154,38 +154,39 @@ export default function waerlinx() {
               <Image
                 src={wlmultiUI}
                 alt="Picture of Inventory Move UI"
-                className="!mb-8"
+                className="rounded-xl block"
                 placeholder="blur"
               />
+              <div style={{ height: '1.8rem' }} />
 
               <Image
                 src={wlmoveimg}
                 alt="Picture of Inventory Move UI on a Laptop"
-                className="!mb-8"
+                className="rounded-xl"
                 placeholder="blur"
               />
 
-              <div className="md:flex flex-row mb-8">
-                <div className="md:basis-1/2 md:pr-1">
+              <div className="md:flex flex-row my-8 rounded-xl">
+                <div className="md:basis-1/2 md:pr-1 rounded-xl md:!pr-4 mb-8 md:mb-0">
                   <Image
                     src={wlbeforeafter1}
                     alt="Picture of Inventory Move UI before and after"
-                    className="md:!mr-4"
+                    className=" rounded-xl"
                     placeholder="blur"
                   />
                 </div>
 
-                <div className="md:basis-1/2 md:pl-1">
+                <div className="md:basis-1/2 md:pl-1 rounded-xl md:!pl-4 ">
                   <Image
                     src={wlbeforeafter2}
                     alt="Picture of Inventory Move UI before and after"
-                    className="md:!ml-4"
+                    className="rounded-xl"
                     placeholder="blur"
                   />
                 </div>
               </div>
 
-              <p className="bg-gray-800 rounded-md p-4 md:p-6 mb-8 italic text-lg leading-loose">This work was created at &amp; is property of WAER Systems.</p>
+              <p className="bg-gray-800 rounded-xl p-4 md:p-6 mb-8 italic text-lg leading-loose">This work was created at &amp; is property of WAER Systems.</p>
 
 
               <LinkBlock

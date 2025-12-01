@@ -36,16 +36,16 @@ export default function Rightindem() {
                 <Image
                   src={RIHeader}
                   alt="Picture of Rightindem UI"
-                  className="rounded-md"
+                  className="rounded-xl"
                   placeholder="blur"
                 />
               </div>
 
-              <div className="bg-gray-800 rounded-md p-4 md:p-6 mb-8">
+              <div className="bg-gray-800 rounded-xl p-4 md:p-6 mb-8">
                 <hr className="h-px border-b border-gray-500 bg-gray-500 mb-4" />
 
                 <div className="md:flex flex-row">
-                  <div className="md:pr-2 rounded-md basis-1/1 md:basis-1/4 bg-gradient-to-r mb-4 md:mb-0 font-light">
+                  <div className="md:pr-2 rounded-xl basis-1/1 md:basis-1/4 bg-gradient-to-r mb-4 md:mb-0 font-light">
                     <h1 className="font-bold text-2xl md:text-3xl xl:text-4xl mb-4 text-transparent bg-clip-text bg-gradient-to-r from-green-500 to-emerald-700 inline-block">
                       Rightindem
                     </h1>
@@ -77,7 +77,7 @@ export default function Rightindem() {
                     </p>
                   </div>
 
-                  <div className="md:ml-2 rounded-md basis-1/1 md:basis-3/4 md:p-6">
+                  <div className="md:ml-2 rounded-xl basis-1/1 md:basis-3/4 md:p-6">
                     <p className="text-lg font-bold pb-4">
                       <a
                         href="https://rightindem.com/"
@@ -129,7 +129,7 @@ export default function Rightindem() {
                   <Image
                     src={RiApp1}
                     alt="Picture of RI App"
-                    className="rounded-md"
+                    className="rounded-xl"
                     placeholder="blur"
                   />
                 </div>
@@ -138,7 +138,7 @@ export default function Rightindem() {
                   <Image
                     src={RIApp2}
                     alt="Picture of RI App"
-                    className="rounded-md"
+                    className="rounded-xl"
                     placeholder="blur"
                   />
                 </div>
@@ -147,7 +147,7 @@ export default function Rightindem() {
               <Image
                     src={RIdash}
                     alt="Picture of RI Dashboard"
-                    className="rounded-md text-center"
+                    className="rounded-xl text-center"
                     placeholder="blur"
                   />
 
@@ -156,14 +156,14 @@ export default function Rightindem() {
                 <Image
                     src={RIADamage}
                     alt="Picture of RI Damage Concepts"
-                    className="rounded-md text-center"
+                    className="rounded-xl text-center"
                     placeholder="blur"
                   />
                
                 </div>
               </div>
 
-              <p className="bg-gray-800 rounded-md p-4 md:p-6 my-8 italic">
+              <p className="bg-gray-800 rounded-xl p-4 md:p-6 my-8 italic">
                 This work was created at &amp; is property of RightIndem.
               </p>
 

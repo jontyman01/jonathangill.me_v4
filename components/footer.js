@@ -8,7 +8,7 @@ export default function Footer() {
   return (
     <footer className="mb-4">
       <Container>
-        <div className="py-4 bg-gray-800 p-4 md:p-6 rounded-md my-4">
+        <div className="py-4 bg-gray-800 p-4 md:p-6 rounded-xl my-4">
           <div className="flex flex-wrap">
             <div className="md:flex mb-1 md:mb-0">
               <a href="https://www.linkedin.com/in/gilljonathan" target="_blank" className='pb-1 md:pb-0 block md:inline'><AiFillLinkedin className='inline' /> <span className="hover:underline decoration-2 hover:decoration-blue-400 focus:text-gray-500">LinkedIn</span></a>

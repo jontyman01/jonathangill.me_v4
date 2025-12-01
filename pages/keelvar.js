@@ -37,13 +37,13 @@ export default function keelvar() {
                 src={KIMG_1}
                 alt="Rate manager cards"
                 placeholder="blur"
-                className="rounded-md"
+                className="rounded-xl"
               />
 
-              <div className="bg-gray-800 rounded-md p-4 md:p-6 my-8">
+              <div className="bg-gray-800 rounded-xl p-4 md:p-6 my-8">
 
                 <div className="md:flex flex-row">
-                  <div className="md:pr-2 rounded-md basis-1/1 md:basis-1/4 bg-gradient-to-r mb-4 md:mb-4 font-light">
+                  <div className="md:pr-2 rounded-xl basis-1/1 md:basis-1/4 bg-gradient-to-r mb-4 md:mb-4 font-light">
                     <h1 className="font-bold text-xl md:text-3xl xl:text-4xl mb-4 text-transparent bg-clip-text bg-gradient-to-r inline-block from-k_purple-400 to-k_purple-600">
                       Keelvar
                     </h1>
@@ -92,7 +92,7 @@ export default function keelvar() {
                     </p>
                   </div>
 
-                  <div className="md:ml-2 rounded-md basis-1/1 md:basis-3/4 md:p-6 leading-loose">
+                  <div className="md:ml-2 rounded-xl basis-1/1 md:basis-3/4 md:p-6 leading-loose">
                     <p className="text-lg font-bold pb-4 leading-loose">
                       <a href="https://keelvar.com/" target="_blank" className="hover:decoration-purple-400" rel="noopener noreferrer">Keelvar</a> drives better procurement outcomes for Coca-Cola, Siemens, Samsung and many others, by simplifying the complex and automating the simple across sourcing needs.
                     </p>
@@ -113,7 +113,7 @@ export default function keelvar() {
                 </div>
               </div>
 
-              <div className="md:flex flex-row bg-gray-800 rounded-md p-4 md:p-6 mb-8 leading-loose">
+              <div className="md:flex flex-row bg-gray-800 rounded-xl p-4 md:p-6 mb-8 leading-loose">
 
                 <p className="text-lg leading-loose">As another example, lets take rate management. In mid sized to large businesses, procurement teams have various methods of storing the agreed prices for contracts, in what is called a Rate Card; for instance, a contract for a shipping container of raw materials going from Southampton to Cork for the year. Initial customer interviews revealed that procurement teams were struggling with fragmented systems, labor-intensive manual processes, and inefficient rate tracking and reporting.</p>
               </div>
@@ -127,29 +127,33 @@ export default function keelvar() {
               <Image
                 src={KIMG_2}
                 alt="lo-fi rate manager wireframe"
-                className="!pb-8"
+                className="rounded-xl"
                 placeholder="blur"
               />
+
+              <div style={{ height: '1.8rem' }} />
 
               <Image
                 src={KIMG_3}
                 alt="lo-fi rate manager wireframe"
-                className=" !pb-8"
+                className="rounded-xl"
                 placeholder="blur"
               />
 
-              <div className="md:flex flex-row bg-gray-800 rounded-md p-4 md:p-6 mb-8 leading-loose">
+
+              <div className="md:flex flex-row bg-gray-800 rounded-xl p-4 md:p-6 my-8 leading-loose">
 
                 <p className="text-lg leading-loose">I began by exploring low-fidelity concepts, centering the design around a familiar tabular interface inspired by Excel, as this was the most familiar interface for our users. However, we aimed to go beyond Excel by incorporating powerful features like advanced filtering to facilitate managing vast rate cards - some with up to 100,000 rates.</p>
               </div>
-                <Image
-                  src={KIMG_5}
-                  alt="Rate manager rates"
-                  className="!pb-8"
-                  placeholder="blur"
-                />
 
-              <div className="md:flex flex-row bg-gray-800 rounded-md p-4 md:p-6 mb-8">
+              <Image
+                src={KIMG_5}
+                alt="Rate manager rates"
+                className="rounded-xl"
+                placeholder="blur"
+              />
+
+              <div className="md:flex flex-row bg-gray-800 rounded-xl p-4 md:p-6 my-8">
 
                 <p className="text-lg leading-loose">After multiple rounds of iterations on prototypes, validating high level concepts with customers, a development team was assembled. I worked closely with engineers to ensure technical feasibility of designs. I also contributed to front-end QA, leveraging my technical background to test in-app designs before deployment. After launching the alpha version, I led think out loud user testing sessions with customers, internal stakeholders, and non-expert users, uncovering critical usability insights before launch. </p>
 
@@ -158,18 +162,18 @@ export default function keelvar() {
               <Image
                 src={KIMG_6}
                 alt="Rate manager cards"
-                className="!pb-8"
+                className="rounded-xl"
                 placeholder="blur"
               />
 
-              <div className="md:flex flex-row bg-gray-800 rounded-md p-4 md:p-6 mb-8 ">
+              <div className="md:flex flex-row bg-gray-800 rounded-xl p-4 md:p-6 my-8 ">
 
                 <p className="text-lg leading-loose">A year after release, Rate Manager now integrates seemlessly into exsisting workflows to become the single point of truth for a large portion of Keelvar users. Plus, it's integrated into a larger solution, where AI agents autonomously negotiate and store rates on behalf of customers.</p>
-                </div>
+              </div>
 
 
 
-              <p className="bg-gray-800 rounded-md p-4 md:p-6 mb-8 italic text-lg leading-loose">This work was created at &amp; is property of Keelvar.</p>
+              <p className="bg-gray-800 rounded-xl p-4 md:p-6 mb-8 italic text-lg leading-loose">This work was created at &amp; is property of Keelvar.</p>
 
 
               <LinkBlock

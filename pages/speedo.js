@@ -39,15 +39,15 @@ export default function speedo() {
                 <Image
                   src={SpeedoHeader}
                   alt="Picture of Speedo"
-                  className="rounded-md"
+                  className="rounded-xl"
                   placeholder="blur"
                 />
               </div>
 
-              <div className="bg-gray-800 rounded-md p-4 md:p-6 mb-8">
+              <div className="bg-gray-800 rounded-xl p-4 md:p-6 mb-8">
 
                 <div className="md:flex flex-row">
-                  <div className="md:pr-2 rounded-md basis-1/1 md:basis-1/4 bg-gradient-to-r mb-4 md:mb-0 font-light">
+                  <div className="md:pr-2 rounded-xl basis-1/1 md:basis-1/4 bg-gradient-to-r mb-4 md:mb-0 font-light">
                     <h1 className="font-bold text-2xl md:text-3xl xl:text-4xl mb-4 text-transparent bg-clip-text bg-gradient-to-r from-red-500 to-orange-800 inline-block">
                       SPEEDO.COM
                     </h1>
@@ -80,7 +80,7 @@ export default function speedo() {
                     <hr className="h-px border-b border-gray-500 bg-gray-500 mb-4 mt-4" />
                   </div>
 
-                  <div className="md:ml-2 rounded-md basis-1/1 md:basis-3/4 md:p-6 text-lg leading-loose">
+                  <div className="md:ml-2 rounded-xl basis-1/1 md:basis-3/4 md:p-6 text-lg leading-loose">
                     <p className="text-lg font-bold pb-4">
                       As a product designer on the e-commerce team of Pentland
                       Brands, I was given the brief of leading the initial UI
@@ -112,7 +112,7 @@ export default function speedo() {
               </div>
 
 
-              <p className="bg-gray-800 rounded-md p-4 md:p-6 my-8 text-lg leading-loose">
+              <p className="bg-gray-800 rounded-xl p-4 md:p-6 my-8 text-lg leading-loose">
                 Therefore a contemporary look to the UI that would appeal
                 to our target markets, whilst taking inspiration from
                 competitors sites such as asos, nike, pro swimwear,
@@ -128,34 +128,36 @@ export default function speedo() {
               <Image
                 src={SpeedoAtomic1}
                 alt="Picture of Speedo Design System 1"
-                className=""
+                className="rounded-xl"
                 placeholder="blur"
               />
+
+              <div style={{ height: '1.8rem' }} />
 
               <Image
                 src={SpeedoAtomic2}
                 alt="Picture of Speedo Design System 2"
-                className=""
+               className="rounded-xl"
                 placeholder="blur"
               />
 
-              <div className="md:flex flex-row pb-8 justify-center text-center pt-2">
+              <div className="md:flex flex-row pb-8 justify-center text-center pt-8">
                 <div className="md:basis-1/2 md:pr-1">
                   <Image
                     src={SpeedoBlog}
                     alt="Picture of Speedo Blog Component"
-                    className=""
+                   className="rounded-xl"
                     placeholder="blur"
                   />
                 </div>
               </div>
 
-              <div className="md:flex flex-row pb-8 justify-center text-center pt-2">
+              <div className="md:flex flex-row pb-8 justify-center text-center">
                 <div className="md:basis-1/2 md:pr-1">
                   <Image
                     src={SpeedoCarousel}
                     alt="Picture of Speedo Carousel Component"
-                    className=""
+                    className="rounded-xl"
                     placeholder="blur"
                   />
                 </div>
@@ -164,11 +166,11 @@ export default function speedo() {
               <Image
                 src={SpeedoLaptop}
                 alt="Picture of Speedo Homepage"
-                className=""
+                className="rounded-xl"
                 placeholder="blur"
               />
 
-              <p className="bg-gray-800 rounded-md p-4 md:p-6 my-8 italic text-lg leading-loose">
+              <p className="bg-gray-800 rounded-xl p-4 md:p-6 my-8 italic text-lg leading-loose">
                 This work was created at &amp; is property of Pentland Brands.
               </p>
 

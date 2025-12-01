@@ -27,13 +27,13 @@ export default function Home() {
           <Container>
             <m.article variants={fade}>
               <div className="md:flex flex-row pb-8">
-                <div className="md:mr-6 rounded-md basis-1/1 md:basis-2/3 bg-gradient-to-r from-green-800 to-blue-900 p-4 md:p-6 mb-8 md:mb-0 flex items-center">
+                <div className="md:mr-6 rounded-xl basis-1/1 md:basis-2/3 bg-gradient-to-r from-green-800 to-blue-900 p-4 md:p-6 mb-8 md:mb-0 flex items-center">
                   <p className="md:text-3xl text-2xl">
                     Hi, I'm Jon. I have over a decade of experience researching, designing and delivering human centred products, grounded in clear business rationale.
                   </p>
                 </div>
 
-                <div className="md:ml-2 rounded-md basis-1/1 md:basis-1/3 bg-gradient-to-r from-slate-800 to-slate-800 p-4 md:p-6">
+                <div className="md:ml-2 rounded-xl basis-1/1 md:basis-1/3 bg-gradient-to-r from-slate-800 to-slate-800 p-4 md:p-6">
                   <p className="text-gray-400 pb-2">I've designed solutions for</p>
                   <p className="text-3xl font-bold uppercase">
                     <span className="text-transparent bg-clip-text bg-gradient-to-r inline-block from-red-500 to-orange-800 pr-2">
@@ -62,7 +62,7 @@ export default function Home() {
                 </div>
               </div>
 
-              <div className="mb-8 p-4 md:p-6 rounded-md bg-gradient-to-r from-gray-800 to-purple-900">
+              <div className="mb-8 p-4 md:p-6 rounded-xl bg-gradient-to-r from-gray-800 to-purple-900">
                 <p className="text-gray-400 pb-4">Specialising In</p>
                 <Collapsible
                   trigger="DISCOVERY & IDEATION"
@@ -124,7 +124,7 @@ export default function Home() {
                 a11yText="Navigate to Keelvar"
                 title="KEELVAR"
                 textColorClasses="from-k_purple-400 to-k_purple-600"
-                bgColorClasses="bg-gray-800"
+                bgColorClasses="bg-gray-800 kl"
                 num="01"
                 company="KEELVAR"
                 skill_1="Leading design across multiple products through high growth."

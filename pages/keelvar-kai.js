@@ -132,13 +132,13 @@ export default function keelvar() {
 
               </div>
 
-              {/* <Image
+               <Image
                 src={KAIGIF}
                 alt="Fireame flow of Kai interaction"
                 className="rounded-xl"
                 placeholder="blur"
                 blurDataURL={KAIGIFTHUMB}
-              /> */}
+              />
 
               <div className="md:flex flex-row bg-gray-800 rounded-xl p-4 md:p-6 my-8">
                 <p className="text-lg leading-loose">

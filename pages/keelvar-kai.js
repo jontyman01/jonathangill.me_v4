@@ -12,7 +12,7 @@ import { LazyMotion, domAnimation, m } from "framer-motion";
 import { NextSeo } from "next-seo";
 
 import KAIIMG_1 from "../src/img/keelvar-kai/hero.png";
-import KAIIMG_2 from "../src/img/keelvar-kai/kaiworkshop.jpg";
+import KAIIMG_2 from "../src/img/keelvar-kai/kai-workshop.jpg";
 import KAIIMG_3 from "../src/img/keelvar-kai/concepts1.png";
 import KAIIMG_4 from "../src/img/keelvar-kai/concepts2.png";
 import KAIIMG_5 from "../src/img/keelvar-kai/hifi1.png";

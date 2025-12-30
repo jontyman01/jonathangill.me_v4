@@ -48,7 +48,7 @@ export default function speedo() {
 
                 <div className="md:flex flex-row">
                   <div className="md:pr-2 rounded-xl basis-1/1 md:basis-1/4 bg-gradient-to-r mb-4 md:mb-0 font-light">
-                    <h1 className="font-bold text-2xl md:text-3xl xl:text-4xl mb-4 text-transparent bg-clip-text bg-gradient-to-r from-red-500 to-orange-800 inline-block">
+                    <h1 className="font-bold text-2xl md:text-3xl xl:text-4xl mb-4 text-transparent bg-clip-text bg-gradient-to-r bg-red-500 inline-block">
                       SPEEDO.COM
                     </h1>
 

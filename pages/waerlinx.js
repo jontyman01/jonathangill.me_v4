@@ -50,7 +50,7 @@ export default function waerlinx() {
                 <div className="md:flex flex-row">
                   <div className="md:pr-2 rounded-xl basis-1/1 md:basis-1/4 bg-gradient-to-r mb-4 md:mb-0 font-light">
                     <h1 className="font-bold text-2xl md:text-3xl xl:text-4xl mb-4 text-transparent bg-clip-text bg-gradient-to-r inline-block from-yellow-400 to-yellow-500">
-                      WAERlinx
+                      WAERLINX
                     </h1>
 
                     <hr className="h-px border-b border-gray-500 bg-gray-500 mb-4" />

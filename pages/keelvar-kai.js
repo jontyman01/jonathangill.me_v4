@@ -48,7 +48,7 @@ export default function keelvar() {
                 <div className="md:flex flex-row">
                   <div className="md:pr-2 rounded-xl basis-1/1 md:basis-1/4 bg-gradient-to-r mb-4 md:mb-4 font-light">
                     <h1 className="font-bold text-xl md:text-3xl xl:text-4xl mb-4 text-transparent bg-clip-text bg-gradient-to-r inline-block from-cyan-400 to-cyan-500">
-                      Keelvar AI (KAI)
+                      KEELVAR AI (KAI)
                     </h1>
 
                     <hr className="h-px border-b border-gray-500 bg-gray-500 mb-4" />

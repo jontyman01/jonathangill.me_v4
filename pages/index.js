@@ -28,7 +28,7 @@ export default function Home() {
             <m.article variants={fade}>
               <div className="md:flex flex-row pb-8">
                 <div className="md:mr-6 rounded-xl basis-1/1 md:basis-2/3 bg-gradient-to-r from-green-800 to-blue-900 p-4 md:p-6 mb-8 md:mb-0 flex items-center">
-                  <p className="md:text-3xl text-2xl">
+                  <p className="md:text-3xl font-bold text-2xl leading-loose">
                     Hi, I'm Jon. I have over a decade of experience researching, designing and delivering human centred products, grounded in clear business rationale.
                   </p>
                 </div>
@@ -36,25 +36,25 @@ export default function Home() {
                 <div className="md:ml-2 rounded-xl basis-1/1 md:basis-1/3 bg-gradient-to-r from-slate-800 to-slate-800 p-4 md:p-6">
                   <p className="text-gray-400 pb-2">I've designed solutions for</p>
                   <p className="text-3xl font-bold uppercase">
-                    <span className="text-transparent bg-clip-text bg-gradient-to-r inline-block from-red-500 to-orange-800 pr-2">
+                    <span className="text-transparent bg-clip-text bg-gradient-to-r inline-block text-red-500 pr-2">
                       Coca-Cola
                     </span>
-                    <span className="text-transparent bg-clip-text bg-gradient-to-r inline-block from-teal-500 to-teal-800 pr-2">
+                    <span className="text-transparent bg-clip-text bg-gradient-to-r inline-block text-teal-500  pr-2">
                       Siemens
                     </span>
-                    <span className="text-transparent bg-clip-text bg-gradient-to-r inline-block from-amber-500 to-amber-800 pr-2">
+                    <span className="text-transparent bg-clip-text bg-gradient-to-r inline-block text-amber-500 pr-2">
                       Nestlé
                     </span>
-                    <span className="text-transparent bg-clip-text bg-gradient-to-r inline-block from-blue-500 to-blue-800 pr-2">
+                    <span className="text-transparent bg-clip-text bg-gradient-to-r inline-block text-blue-500 pr-2">
                       Mars
                     </span>
-                    <span className="text-transparent bg-clip-text bg-gradient-to-r inline-block from-red-500 to-orange-800 pr-2">
+                    <span className="text-transparent bg-clip-text bg-gradient-to-r inline-block text-red-600 pr-2">
                       Speedo
                     </span>
-                    <span className="text-transparent bg-clip-text bg-gradient-to-r inline-block from-green-600 to-green-400 pr-2">
+                    <span className="text-transparent bg-clip-text bg-gradient-to-r inline-block text-indigo-500 pr-2">
                       Berghaus
                     </span>
-                    <span className="text-transparent bg-clip-text bg-gradient-to-r inline-block from-red-500 to-red-800 pr-2">
+                    <span className="text-transparent bg-clip-text bg-gradient-to-r inline-block text-rose-500 pr-2">
                       SIG
                     </span>
                   </p>
@@ -62,8 +62,8 @@ export default function Home() {
                 </div>
               </div>
 
-              <div className="mb-8 p-4 md:p-6 rounded-xl bg-gradient-to-r from-gray-800 to-purple-900">
-                <p className="text-gray-400 pb-4">Specialising In</p>
+              <div className="mb-8 p-4 md:p-6 rounded-xl bg-gradient-to-r from-indigo-900 to-indigo-900">
+                <p className="text-indigo-300 pb-4">Specialising In</p>
                 <Collapsible
                   trigger="DISCOVERY & IDEATION"
                   transitionTime="150"
@@ -74,7 +74,7 @@ export default function Home() {
                       href="https://www.keelvar.com/sourcing-automation"
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="hover:decoration-purple-400"
+                      className="hover:decoration-indigo-400"
                     >
                       Autonomous Sourcing
                     </a>{" "}

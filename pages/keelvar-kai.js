@@ -17,6 +17,8 @@ import KAIIMG_3 from "../src/img/keelvar-kai/concepts1.png";
 import KAIIMG_4 from "../src/img/keelvar-kai/concepts2.png";
 import KAIIMG_5 from "../src/img/keelvar-kai/hifi1.png";
 import KAIGIF from "../src/img/keelvar-kai/wireframe-flow.gif";
+import KAIGIFTHUMB from "../src/img/keelvar-kai/wireframe-flow-thumb.png";
+
 
 export default function keelvar() {
   return (
@@ -134,6 +136,8 @@ export default function keelvar() {
                 src={KAIGIF}
                 alt="Fireame flow of Kai interaction"
                 className="rounded-xl"
+                placeholder="blur"
+                blurDataURL={KAIGIFTHUMB}
               />
 
               <div className="md:flex flex-row bg-gray-800 rounded-xl p-4 md:p-6 my-8">

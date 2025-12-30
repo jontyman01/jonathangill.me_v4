@@ -78,6 +78,11 @@ p a {
   @apply border-k_purple-400 bg-k_purple-400;
 }
 
+.linkBlock.kl-ai:hover hr {
+  @apply border-cyan-400 bg-cyan-500;
+}
+
+
 .linkBlock.wl:hover hr {
   @apply border-yellow-300 bg-yellow-300;
 }
@@ -96,6 +101,10 @@ p a {
 
 .linkBlock.kl:hover .arrow {
   @apply stroke-k_purple-400;
+ }
+
+ .linkBlock.kl-ai:hover .arrow {
+  @apply stroke-cyan-400;
  }
 
 .linkBlock.wl:hover .arrow {
@@ -121,6 +130,11 @@ p a {
  .quoteBlockbg--kl {
   background: radial-gradient(50% 50% at 50% 50%, #985BF5 0%, #4D359C 100%);
   color: #d1ff9f;
+}
+
+ .quoteBlockbg--kl-ai {
+  background: radial-gradient(50% 50% at 50% 50%, #9FDCDC 0%, #50BFDE 100%);
+  color: #4D359C
 }
 
 .quoteBlockbg--wl {

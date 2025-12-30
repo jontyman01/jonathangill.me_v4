@@ -120,12 +120,23 @@ export default function Home() {
               </div>
 
               <LinkBlock
+                destination="/keelvar-kai"
+                a11yText="Navigate to Keelvar AI (KAI)"
+                title="KEELVAR AI (KAI)"
+                textColorClasses="from-cyan-400 to-cyan-500"
+                bgColorClasses="bg-gray-800 kl-ai"
+                num="01"
+                company="KEELVAR"
+                skill_1="Designing agentic AI to solve real user pain points."
+              />
+              
+              <LinkBlock
                 destination="/keelvar"
-                a11yText="Navigate to Keelvar"
-                title="KEELVAR"
+                a11yText="Navigate to Keelvar Rate Manager"
+                title="KEELVAR RATE MANAGER"
                 textColorClasses="from-k_purple-400 to-k_purple-600"
                 bgColorClasses="bg-gray-800 kl"
-                num="01"
+                num="02"
                 company="KEELVAR"
                 skill_1="Leading design across multiple products through high growth."
               />
@@ -135,7 +146,7 @@ export default function Home() {
                 title="WAERLINX"
                 textColorClasses="from-yellow-500 to-yellow-800"
                 bgColorClasses="bg-gray-800 wl"
-                num="02"
+                num="03"
                 company="WAER Systems"
                 skill_1="Redesigning a 20 year old application to be user first."
               />
@@ -146,7 +157,7 @@ export default function Home() {
                 title="SPEEDO.COM"
                 textColorClasses="from-red-500 to-orange-800"
                 bgColorClasses="bg-gray-800 speedo"
-                num="03"
+                num="04"
                 company="Pentland Brands"
                 skill_1="Creating a design system from scratch for a global brand."
               />

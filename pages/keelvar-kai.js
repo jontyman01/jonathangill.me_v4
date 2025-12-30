@@ -138,6 +138,8 @@ export default function keelvar() {
                 className="rounded-xl"
                 placeholder="blur"
                 blurDataURL={KAIGIFTHUMB}
+                width={KAIGIF.width} 
+                height={KAIGIF.height}
               />
 
               <div className="md:flex flex-row bg-gray-800 rounded-xl p-4 md:p-6 my-8">
